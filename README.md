@@ -1,8 +1,9 @@
-# Dependency Management Graph Scripts
-
-This repository provides Python scripts to analyze and visualize dependency relationships in `package-lock.json` files from NPM projects. It includes tools for data collection, parsing, graph construction, and querying. Below is an overview of the scripts and their usage.
+# Overview 
+This study addresses critical challenges in dependency management within the NPM ecosystem, such as transitive dependency conflicts, version mismatches, unused dependencies, and cyclic relationships. Given the limitations of existing tools, which lack robust visualization and comprehensive insights into complex dependency structures, this project explores the feasibility of graph-based approaches to improve dependency management.
 
 ---
+
+# Dependency Management Graph Scripts
 
 ## Table of Contents
 - [Scripts Overview](#scripts-overview)
