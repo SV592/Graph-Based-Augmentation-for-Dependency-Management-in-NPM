@@ -31,9 +31,9 @@ def import_dependencies_to_neo4j(dependency_map, graph):
     Each key in dependency_map represents a package and its dependencies.
     """
     # Neo4j connection details
-    neo4j_uri = "bolt://localhost:7687"  # Adjust if needed
-    username = "neo4j"  # Default username
-    password = "s7lumped"  # Replace with your actual password
+    neo4j_uri = ""  # Adjust if needed
+    username = ""  # Default username
+    password = ""  # Replace with your actual password
 
     # Connect to Neo4j
     graph_db = Graph(neo4j_uri, auth=(username, password))
