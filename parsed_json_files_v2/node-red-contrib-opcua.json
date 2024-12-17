@@ -1,0 +1,3190 @@
+{
+  "colors@1.5.0 (node_modules/@colors/colors)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "ip-codec@2.0.5 (node_modules/@leichtgewicht/ip-codec)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "asn1-cms@2.3.8 (node_modules/@peculiar/asn1-cms)": {
+    "dependencies": [
+      "@peculiar/asn1-schema@^2.3.8",
+      "@peculiar/asn1-x509@^2.3.8",
+      "@peculiar/asn1-x509-attr@^2.3.8",
+      "asn1js@^3.0.5",
+      "tslib@^2.6.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "asn1-csr@2.3.8 (node_modules/@peculiar/asn1-csr)": {
+    "dependencies": [
+      "@peculiar/asn1-schema@^2.3.8",
+      "@peculiar/asn1-x509@^2.3.8",
+      "asn1js@^3.0.5",
+      "tslib@^2.6.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "asn1-ecc@2.3.8 (node_modules/@peculiar/asn1-ecc)": {
+    "dependencies": [
+      "@peculiar/asn1-schema@^2.3.8",
+      "@peculiar/asn1-x509@^2.3.8",
+      "asn1js@^3.0.5",
+      "tslib@^2.6.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "asn1-pfx@2.3.8 (node_modules/@peculiar/asn1-pfx)": {
+    "dependencies": [
+      "@peculiar/asn1-cms@^2.3.8",
+      "@peculiar/asn1-pkcs8@^2.3.8",
+      "@peculiar/asn1-rsa@^2.3.8",
+      "@peculiar/asn1-schema@^2.3.8",
+      "asn1js@^3.0.5",
+      "tslib@^2.6.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "asn1-pkcs8@2.3.8 (node_modules/@peculiar/asn1-pkcs8)": {
+    "dependencies": [
+      "@peculiar/asn1-schema@^2.3.8",
+      "@peculiar/asn1-x509@^2.3.8",
+      "asn1js@^3.0.5",
+      "tslib@^2.6.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "asn1-pkcs9@2.3.8 (node_modules/@peculiar/asn1-pkcs9)": {
+    "dependencies": [
+      "@peculiar/asn1-cms@^2.3.8",
+      "@peculiar/asn1-pfx@^2.3.8",
+      "@peculiar/asn1-pkcs8@^2.3.8",
+      "@peculiar/asn1-schema@^2.3.8",
+      "@peculiar/asn1-x509@^2.3.8",
+      "@peculiar/asn1-x509-attr@^2.3.8",
+      "asn1js@^3.0.5",
+      "tslib@^2.6.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "asn1-rsa@2.3.8 (node_modules/@peculiar/asn1-rsa)": {
+    "dependencies": [
+      "@peculiar/asn1-schema@^2.3.8",
+      "@peculiar/asn1-x509@^2.3.8",
+      "asn1js@^3.0.5",
+      "tslib@^2.6.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "asn1-schema@2.3.8 (node_modules/@peculiar/asn1-schema)": {
+    "dependencies": [
+      "asn1js@^3.0.5",
+      "pvtsutils@^1.3.5",
+      "tslib@^2.6.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "asn1-x509@2.3.8 (node_modules/@peculiar/asn1-x509)": {
+    "dependencies": [
+      "@peculiar/asn1-schema@^2.3.8",
+      "asn1js@^3.0.5",
+      "ipaddr.js@^2.1.0",
+      "pvtsutils@^1.3.5",
+      "tslib@^2.6.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "asn1-x509-attr@2.3.8 (node_modules/@peculiar/asn1-x509-attr)": {
+    "dependencies": [
+      "@peculiar/asn1-schema@^2.3.8",
+      "@peculiar/asn1-x509@^2.3.8",
+      "asn1js@^3.0.5",
+      "tslib@^2.6.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "json-schema@1.1.12 (node_modules/@peculiar/json-schema)": {
+    "dependencies": [
+      "tslib@^2.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "webcrypto@1.4.5 (node_modules/@peculiar/webcrypto)": {
+    "dependencies": [
+      "@peculiar/asn1-schema@^2.3.8",
+      "@peculiar/json-schema@^1.1.12",
+      "pvtsutils@^1.3.5",
+      "tslib@^2.6.2",
+      "webcrypto-core@^1.7.8"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "x509@1.9.7 (node_modules/@peculiar/x509)": {
+    "dependencies": [
+      "@peculiar/asn1-cms@^2.3.8",
+      "@peculiar/asn1-csr@^2.3.8",
+      "@peculiar/asn1-ecc@^2.3.8",
+      "@peculiar/asn1-pkcs9@^2.3.8",
+      "@peculiar/asn1-rsa@^2.3.8",
+      "@peculiar/asn1-schema@^2.3.8",
+      "@peculiar/asn1-x509@^2.3.8",
+      "pvtsutils@^1.3.5",
+      "reflect-metadata@^0.2.1",
+      "tslib@^2.6.2",
+      "tsyringe@^4.8.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "component-emitter@3.1.0 (node_modules/@socket.io/component-emitter)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "global-mutex@2.0.0 (node_modules/@ster5/global-mutex)": {
+    "dependencies": [
+      "@types/proper-lockfile@^4.1.2",
+      "proper-lockfile@^4.1.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "asn1@0.2.4 (node_modules/@types/asn1)": {
+    "dependencies": [
+      "@types/node@*"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "async@3.2.24 (node_modules/@types/async)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "cookie@0.4.1 (node_modules/@types/cookie)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "cors@2.8.17 (node_modules/@types/cors)": {
+    "dependencies": [
+      "@types/node@*"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "dns-packet@5.6.5 (node_modules/@types/dns-packet)": {
+    "dependencies": [
+      "@types/node@*"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "jsrsasign@10.5.12 (node_modules/@types/jsrsasign)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "lodash@4.14.202 (node_modules/@types/lodash)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "lodash.memoize@4.1.7 (node_modules/@types/lodash.memoize)": {
+    "dependencies": [
+      "@types/lodash@*"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "mkdirp@1.0.2 (node_modules/@types/mkdirp)": {
+    "dependencies": [
+      "@types/node@*"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "multicast-dns@7.2.4 (node_modules/@types/multicast-dns)": {
+    "dependencies": [
+      "@types/dns-packet@*",
+      "@types/node@*"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node@14.14.41 (node_modules/@types/node)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "proper-lockfile@4.1.4 (node_modules/@types/proper-lockfile)": {
+    "dependencies": [
+      "@types/retry@*"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "retry@0.12.5 (node_modules/@types/retry)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "semver@7.5.8 (node_modules/@types/semver)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "sshpk@1.17.4 (node_modules/@types/sshpk)": {
+    "dependencies": [
+      "@types/asn1@*",
+      "@types/node@*"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "accepts@1.3.8 (node_modules/accepts)": {
+    "dependencies": [
+      "mime-types@~2.1.34",
+      "negotiator@0.6.3"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "ansi-regex@5.0.1 (node_modules/ansi-regex)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "ansi-styles@4.3.0 (node_modules/ansi-styles)": {
+    "dependencies": [
+      "color-convert@^2.0.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "any-promise@1.3.0 (node_modules/any-promise)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "anymatch@3.1.2 (node_modules/anymatch)": {
+    "dependencies": [
+      "normalize-path@^3.0.0",
+      "picomatch@^2.0.4"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "array-flatten@2.1.2 (node_modules/array-flatten)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "asn1@0.2.6 (node_modules/asn1)": {
+    "dependencies": [
+      "safer-buffer@~2.1.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "asn1js@3.0.5 (node_modules/asn1js)": {
+    "dependencies": [
+      "pvtsutils@^1.3.2",
+      "pvutils@^1.1.3",
+      "tslib@^2.4.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "assert@2.1.0 (node_modules/assert)": {
+    "dependencies": [
+      "call-bind@^1.0.2",
+      "is-nan@^1.3.2",
+      "object-is@^1.1.5",
+      "object.assign@^4.1.4",
+      "util@^0.12.5"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "assert-plus@1.0.0 (node_modules/assert-plus)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "async@3.2.5 (node_modules/async)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "available-typed-arrays@1.0.5 (node_modules/available-typed-arrays)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "backoff@2.5.0 (node_modules/backoff)": {
+    "dependencies": [
+      "precond@0.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "balanced-match@1.0.2 (node_modules/balanced-match)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "base64id@2.0.0 (node_modules/base64id)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "bcrypt-pbkdf@1.0.2 (node_modules/bcrypt-pbkdf)": {
+    "dependencies": [
+      "tweetnacl@^0.14.3"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "binary-extensions@2.2.0 (node_modules/binary-extensions)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "body-parser@1.20.3 (node_modules/body-parser)": {
+    "dependencies": [
+      "bytes@3.1.2",
+      "content-type@~1.0.5",
+      "debug@2.6.9",
+      "depd@2.0.0",
+      "destroy@1.2.0",
+      "http-errors@2.0.0",
+      "iconv-lite@0.4.24",
+      "on-finished@2.4.1",
+      "qs@6.13.0",
+      "raw-body@2.5.2",
+      "type-is@~1.6.18",
+      "unpipe@1.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "on-finished@2.4.1 (node_modules/body-parser/node_modules/on-finished)": {
+    "dependencies": [
+      "ee-first@1.1.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "brace-expansion@1.1.11 (node_modules/brace-expansion)": {
+    "dependencies": [
+      "balanced-match@^1.0.0",
+      "concat-map@0.0.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "braces@3.0.3 (node_modules/braces)": {
+    "dependencies": [
+      "fill-range@^7.1.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "buffer-crc32@0.2.13 (node_modules/buffer-crc32)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "byline@5.0.0 (node_modules/byline)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "bytes@3.1.2 (node_modules/bytes)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "call-bind@1.0.7 (node_modules/call-bind)": {
+    "dependencies": [
+      "es-define-property@^1.0.0",
+      "es-errors@^1.3.0",
+      "function-bind@^1.1.2",
+      "get-intrinsic@^1.2.4",
+      "set-function-length@^1.2.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "chalk@4.1.2 (node_modules/chalk)": {
+    "dependencies": [
+      "ansi-styles@^4.1.0",
+      "supports-color@^7.1.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "chokidar@3.6.0 (node_modules/chokidar)": {
+    "dependencies": [
+      "anymatch@~3.1.2",
+      "braces@~3.0.2",
+      "glob-parent@~5.1.2",
+      "is-binary-path@~2.1.0",
+      "is-glob@~4.0.1",
+      "normalize-path@~3.0.0",
+      "readdirp@~3.6.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [
+      "fsevents@~2.3.2"
+    ],
+    "isDevDependency": false
+  },
+  "cli-table@0.3.11 (node_modules/cli-table)": {
+    "dependencies": [
+      "colors@1.0.3"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "cliui@7.0.4 (node_modules/cliui)": {
+    "dependencies": [
+      "string-width@^4.2.0",
+      "strip-ansi@^6.0.0",
+      "wrap-ansi@^7.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "color-convert@2.0.1 (node_modules/color-convert)": {
+    "dependencies": [
+      "color-name@~1.1.4"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "color-name@1.1.4 (node_modules/color-name)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "colors@1.0.3 (node_modules/colors)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "concat-map@0.0.1 (node_modules/concat-map)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "connect@3.7.0 (node_modules/connect)": {
+    "dependencies": [
+      "debug@2.6.9",
+      "finalhandler@1.1.2",
+      "parseurl@~1.3.3",
+      "utils-merge@1.0.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "content-type@1.0.5 (node_modules/content-type)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "cookie@0.7.2 (node_modules/cookie)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "cors@2.8.5 (node_modules/cors)": {
+    "dependencies": [
+      "object-assign@^4",
+      "vary@^1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "custom-event@1.0.1 (node_modules/custom-event)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "dashdash@1.14.1 (node_modules/dashdash)": {
+    "dependencies": [
+      "assert-plus@^1.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "date-format@4.0.4 (node_modules/date-format)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "debug@2.6.9 (node_modules/debug)": {
+    "dependencies": [
+      "ms@2.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "define-data-property@1.1.4 (node_modules/define-data-property)": {
+    "dependencies": [
+      "es-define-property@^1.0.0",
+      "es-errors@^1.3.0",
+      "gopd@^1.0.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "define-properties@1.2.1 (node_modules/define-properties)": {
+    "dependencies": [
+      "define-data-property@^1.0.1",
+      "has-property-descriptors@^1.0.0",
+      "object-keys@^1.1.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "depd@2.0.0 (node_modules/depd)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "dequeue@1.0.5 (node_modules/dequeue)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "destroy@1.2.0 (node_modules/destroy)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "di@0.0.1 (node_modules/di)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "dns-equal@1.0.0 (node_modules/dns-equal)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "dns-packet@5.6.1 (node_modules/dns-packet)": {
+    "dependencies": [
+      "@leichtgewicht/ip-codec@^2.0.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "dom-serialize@2.2.1 (node_modules/dom-serialize)": {
+    "dependencies": [
+      "custom-event@~1.0.0",
+      "ent@~2.2.0",
+      "extend@^3.0.0",
+      "void-elements@^2.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "ecc-jsbn@0.1.2 (node_modules/ecc-jsbn)": {
+    "dependencies": [
+      "jsbn@~0.1.0",
+      "safer-buffer@^2.1.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "ee-first@1.1.1 (node_modules/ee-first)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "emoji-regex@8.0.0 (node_modules/emoji-regex)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "encodeurl@1.0.2 (node_modules/encodeurl)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "engine.io@6.6.2 (node_modules/engine.io)": {
+    "dependencies": [
+      "@types/cookie@^0.4.1",
+      "@types/cors@^2.8.12",
+      "@types/node@>=10.0.0",
+      "accepts@~1.3.4",
+      "base64id@2.0.0",
+      "cookie@~0.7.2",
+      "cors@~2.8.5",
+      "debug@~4.3.1",
+      "engine.io-parser@~5.2.1",
+      "ws@~8.17.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "engine.io-parser@5.2.3 (node_modules/engine.io-parser)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "debug@4.3.7 (node_modules/engine.io/node_modules/debug)": {
+    "dependencies": [
+      "ms@^2.1.3"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "ms@2.1.3 (node_modules/engine.io/node_modules/ms)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "ws@8.17.1 (node_modules/engine.io/node_modules/ws)": {
+    "dependencies": [],
+    "peerDependencies": [
+      "bufferutil@^4.0.1",
+      "utf-8-validate@>=5.0.2"
+    ],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "ent@2.2.0 (node_modules/ent)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "env-paths@2.2.1 (node_modules/env-paths)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "es-define-property@1.0.0 (node_modules/es-define-property)": {
+    "dependencies": [
+      "get-intrinsic@^1.2.4"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "es-errors@1.3.0 (node_modules/es-errors)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "escalade@3.1.1 (node_modules/escalade)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "escape-html@1.0.3 (node_modules/escape-html)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "eventemitter3@4.0.7 (node_modules/eventemitter3)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "extend@3.0.2 (node_modules/extend)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "fast-deep-equal@3.1.3 (node_modules/fast-deep-equal)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "fill-range@7.1.1 (node_modules/fill-range)": {
+    "dependencies": [
+      "to-regex-range@^5.0.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "finalhandler@1.1.2 (node_modules/finalhandler)": {
+    "dependencies": [
+      "debug@2.6.9",
+      "encodeurl@~1.0.2",
+      "escape-html@~1.0.3",
+      "on-finished@~2.3.0",
+      "parseurl@~1.3.3",
+      "statuses@~1.5.0",
+      "unpipe@~1.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "flatted@3.2.5 (node_modules/flatted)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "follow-redirects@1.15.6 (node_modules/follow-redirects)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "for-each@0.3.3 (node_modules/for-each)": {
+    "dependencies": [
+      "is-callable@^1.1.3"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "fs-extra@10.0.1 (node_modules/fs-extra)": {
+    "dependencies": [
+      "graceful-fs@^4.2.0",
+      "jsonfile@^6.0.1",
+      "universalify@^2.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "fs.realpath@1.0.0 (node_modules/fs.realpath)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "fsevents@2.3.3 (node_modules/fsevents)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "function-bind@1.1.2 (node_modules/function-bind)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "get-caller-file@2.0.5 (node_modules/get-caller-file)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "get-intrinsic@1.2.4 (node_modules/get-intrinsic)": {
+    "dependencies": [
+      "es-errors@^1.3.0",
+      "function-bind@^1.1.2",
+      "has-proto@^1.0.1",
+      "has-symbols@^1.0.3",
+      "hasown@^2.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "get-user-locale@2.3.0 (node_modules/get-user-locale)": {
+    "dependencies": [
+      "@types/lodash.memoize@^4.1.7",
+      "lodash.memoize@^4.1.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "getpass@0.1.7 (node_modules/getpass)": {
+    "dependencies": [
+      "assert-plus@^1.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "glob@7.1.7 (node_modules/glob)": {
+    "dependencies": [
+      "fs.realpath@^1.0.0",
+      "inflight@^1.0.4",
+      "inherits@2",
+      "minimatch@^3.0.4",
+      "once@^1.3.0",
+      "path-is-absolute@^1.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "glob-parent@5.1.2 (node_modules/glob-parent)": {
+    "dependencies": [
+      "is-glob@^4.0.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "gopd@1.0.1 (node_modules/gopd)": {
+    "dependencies": [
+      "get-intrinsic@^1.1.3"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "graceful-fs@4.2.6 (node_modules/graceful-fs)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "has-flag@4.0.0 (node_modules/has-flag)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "has-property-descriptors@1.0.2 (node_modules/has-property-descriptors)": {
+    "dependencies": [
+      "es-define-property@^1.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "has-proto@1.0.1 (node_modules/has-proto)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "has-symbols@1.0.3 (node_modules/has-symbols)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "has-tostringtag@1.0.0 (node_modules/has-tostringtag)": {
+    "dependencies": [
+      "has-symbols@^1.0.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "hasown@2.0.0 (node_modules/hasown)": {
+    "dependencies": [
+      "function-bind@^1.1.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "hexy@0.3.5 (node_modules/hexy)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "http-errors@2.0.0 (node_modules/http-errors)": {
+    "dependencies": [
+      "depd@2.0.0",
+      "inherits@2.0.4",
+      "setprototypeof@1.2.0",
+      "statuses@2.0.1",
+      "toidentifier@1.0.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "statuses@2.0.1 (node_modules/http-errors/node_modules/statuses)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "http-proxy@1.18.1 (node_modules/http-proxy)": {
+    "dependencies": [
+      "eventemitter3@^4.0.0",
+      "follow-redirects@^1.0.0",
+      "requires-port@^1.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "humanize@0.0.9 (node_modules/humanize)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "iconv-lite@0.4.24 (node_modules/iconv-lite)": {
+    "dependencies": [
+      "safer-buffer@>= 2.1.2 < 3"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "inflight@1.0.6 (node_modules/inflight)": {
+    "dependencies": [
+      "once@^1.3.0",
+      "wrappy@1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "inherits@2.0.4 (node_modules/inherits)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "invert-kv@3.0.1 (node_modules/invert-kv)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "ipaddr.js@2.1.0 (node_modules/ipaddr.js)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "is-arguments@1.1.1 (node_modules/is-arguments)": {
+    "dependencies": [
+      "call-bind@^1.0.2",
+      "has-tostringtag@^1.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "is-binary-path@2.1.0 (node_modules/is-binary-path)": {
+    "dependencies": [
+      "binary-extensions@^2.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "is-callable@1.2.7 (node_modules/is-callable)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "is-extglob@2.1.1 (node_modules/is-extglob)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "is-fullwidth-code-point@3.0.0 (node_modules/is-fullwidth-code-point)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "is-generator-function@1.0.10 (node_modules/is-generator-function)": {
+    "dependencies": [
+      "has-tostringtag@^1.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "is-glob@4.0.1 (node_modules/is-glob)": {
+    "dependencies": [
+      "is-extglob@^2.1.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "is-nan@1.3.2 (node_modules/is-nan)": {
+    "dependencies": [
+      "call-bind@^1.0.0",
+      "define-properties@^1.1.3"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "is-number@7.0.0 (node_modules/is-number)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "is-typed-array@1.1.12 (node_modules/is-typed-array)": {
+    "dependencies": [
+      "which-typed-array@^1.1.11"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "isbinaryfile@4.0.8 (node_modules/isbinaryfile)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "isexe@2.0.0 (node_modules/isexe)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "jasmine-core@3.8.0 (node_modules/jasmine-core)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "jsbn@0.1.1 (node_modules/jsbn)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "jsonfile@6.1.0 (node_modules/jsonfile)": {
+    "dependencies": [
+      "universalify@^2.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [
+      "graceful-fs@^4.1.6"
+    ],
+    "isDevDependency": true
+  },
+  "jsrsasign@11.1.0 (node_modules/jsrsasign)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "karma@6.3.17 (node_modules/karma)": {
+    "dependencies": [
+      "@colors/colors@1.5.0",
+      "body-parser@^1.19.0",
+      "braces@^3.0.2",
+      "chokidar@^3.5.1",
+      "connect@^3.7.0",
+      "di@^0.0.1",
+      "dom-serialize@^2.2.1",
+      "glob@^7.1.7",
+      "graceful-fs@^4.2.6",
+      "http-proxy@^1.18.1",
+      "isbinaryfile@^4.0.8",
+      "lodash@^4.17.21",
+      "log4js@^6.4.1",
+      "mime@^2.5.2",
+      "minimatch@^3.0.4",
+      "mkdirp@^0.5.5",
+      "qjobs@^1.2.0",
+      "range-parser@^1.2.1",
+      "rimraf@^3.0.2",
+      "socket.io@^4.2.0",
+      "source-map@^0.6.1",
+      "tmp@^0.2.1",
+      "ua-parser-js@^0.7.30",
+      "yargs@^16.1.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "karma-chrome-launcher@3.1.0 (node_modules/karma-chrome-launcher)": {
+    "dependencies": [
+      "which@^1.2.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "karma-jasmine@4.0.1 (node_modules/karma-jasmine)": {
+    "dependencies": [
+      "jasmine-core@^3.6.0"
+    ],
+    "peerDependencies": [
+      "karma@*"
+    ],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "mkdirp@0.5.5 (node_modules/karma/node_modules/mkdirp)": {
+    "dependencies": [
+      "minimist@^1.2.5"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "lcid@3.1.1 (node_modules/lcid)": {
+    "dependencies": [
+      "invert-kv@^3.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "lodash@4.17.21 (node_modules/lodash)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "lodash.clonedeep@4.5.0 (node_modules/lodash.clonedeep)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "lodash.memoize@4.1.2 (node_modules/lodash.memoize)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "log4js@6.4.2 (node_modules/log4js)": {
+    "dependencies": [
+      "date-format@^4.0.4",
+      "debug@^4.3.3",
+      "flatted@^3.2.5",
+      "rfdc@^1.3.0",
+      "streamroller@^3.0.4"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "debug@4.3.3 (node_modules/log4js/node_modules/debug)": {
+    "dependencies": [
+      "ms@2.1.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "ms@2.1.2 (node_modules/log4js/node_modules/ms)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "long@4.0.0 (node_modules/long)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "lru-cache@6.0.0 (node_modules/lru-cache)": {
+    "dependencies": [
+      "yallist@^4.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "ltx@3.0.0 (node_modules/ltx)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "media-typer@0.3.0 (node_modules/media-typer)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "mime@2.5.2 (node_modules/mime)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "mime-db@1.51.0 (node_modules/mime-db)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "mime-types@2.1.34 (node_modules/mime-types)": {
+    "dependencies": [
+      "mime-db@1.51.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "minimatch@3.1.2 (node_modules/minimatch)": {
+    "dependencies": [
+      "brace-expansion@^1.1.7"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "minimist@1.2.8 (node_modules/minimist)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "minipass@4.2.8 (node_modules/minipass)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "mkdirp@1.0.4 (node_modules/mkdirp)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "ms@2.0.0 (node_modules/ms)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "multicast-dns@7.2.5 (node_modules/multicast-dns)": {
+    "dependencies": [
+      "dns-packet@^5.2.2",
+      "thunky@^1.0.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "negotiator@0.6.3 (node_modules/negotiator)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "node-opcua@2.124.0 (node_modules/node-opcua)": {
+    "dependencies": [
+      "@types/semver@^7.5.8",
+      "chalk@4.1.2",
+      "node-opcua-address-space@2.124.0",
+      "node-opcua-address-space-for-conformance-testing@2.124.0",
+      "node-opcua-aggregates@2.124.0",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-certificate-manager@2.121.0",
+      "node-opcua-client@2.124.0",
+      "node-opcua-client-crawler@2.124.0",
+      "node-opcua-client-proxy@2.124.0",
+      "node-opcua-common@2.123.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-crypto@4.8.0",
+      "node-opcua-data-access@2.123.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-enum@2.120.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-hostname@2.120.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-nodesets@2.121.0",
+      "node-opcua-numeric-range@2.121.0",
+      "node-opcua-packet-analyzer@2.121.0",
+      "node-opcua-secure-channel@2.124.0",
+      "node-opcua-server@2.124.0",
+      "node-opcua-server-discovery@2.124.0",
+      "node-opcua-service-browse@2.123.0",
+      "node-opcua-service-call@2.123.0",
+      "node-opcua-service-discovery@2.123.0",
+      "node-opcua-service-endpoints@2.123.0",
+      "node-opcua-service-filter@2.123.0",
+      "node-opcua-service-history@2.123.0",
+      "node-opcua-service-node-management@2.123.0",
+      "node-opcua-service-query@2.123.0",
+      "node-opcua-service-read@2.123.0",
+      "node-opcua-service-register-node@2.123.0",
+      "node-opcua-service-secure-channel@2.123.0",
+      "node-opcua-service-session@2.123.0",
+      "node-opcua-service-subscription@2.124.0",
+      "node-opcua-service-translate-browse-path@2.123.0",
+      "node-opcua-service-write@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-transport@2.123.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-utils@2.120.0",
+      "node-opcua-variant@2.121.0",
+      "node-opcua-vendor-diagnostic@2.124.0",
+      "semver@^7.6.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-address-space@2.124.0 (node_modules/node-opcua-address-space)": {
+    "dependencies": [
+      "@types/lodash@4.14.202",
+      "@types/semver@^7.5.8",
+      "async@^3.2.5",
+      "chalk@4.1.2",
+      "dequeue@^1.0.5",
+      "lodash@4.17.21",
+      "node-opcua-address-space-base@2.123.0",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-client-dynamic-extension-object@2.124.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-crypto@4.8.0",
+      "node-opcua-data-access@2.123.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-date-time@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-enum@2.120.0",
+      "node-opcua-extension-object@2.121.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-nodeset-ua@2.123.0",
+      "node-opcua-numeric-range@2.121.0",
+      "node-opcua-object-registry@2.121.0",
+      "node-opcua-pseudo-session@2.124.0",
+      "node-opcua-service-browse@2.123.0",
+      "node-opcua-service-call@2.123.0",
+      "node-opcua-service-history@2.123.0",
+      "node-opcua-service-translate-browse-path@2.123.0",
+      "node-opcua-service-write@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-utils@2.120.0",
+      "node-opcua-variant@2.121.0",
+      "node-opcua-xml2json@2.123.0",
+      "semver@^7.6.0",
+      "set-prototype-of@^1.0.0",
+      "thenify@^3.3.1",
+      "xml-writer@^1.7.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-address-space-base@2.123.0 (node_modules/node-opcua-address-space-base)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-crypto@4.8.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-date-time@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-extension-object@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-numeric-range@2.121.0",
+      "node-opcua-schemas@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-variant@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-address-space-for-conformance-testing@2.124.0 (node_modules/node-opcua-address-space-for-conformance-testing)": {
+    "dependencies": [
+      "node-opcua-address-space@2.124.0",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-data-access@2.123.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-variant@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-aggregates@2.124.0 (node_modules/node-opcua-aggregates)": {
+    "dependencies": [
+      "node-opcua-address-space@2.124.0",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-numeric-range@2.121.0",
+      "node-opcua-server@2.124.0",
+      "node-opcua-service-history@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-utils@2.120.0",
+      "node-opcua-variant@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-alarm-condition@2.124.0 (node_modules/node-opcua-alarm-condition)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-pseudo-session@2.124.0",
+      "node-opcua-service-browse@2.123.0",
+      "node-opcua-service-filter@2.123.0",
+      "node-opcua-service-read@2.123.0",
+      "node-opcua-service-subscription@2.124.0",
+      "node-opcua-service-translate-browse-path@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-utils@2.120.0",
+      "node-opcua-variant@2.121.0",
+      "thenify@^3.3.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-assert@2.120.0 (node_modules/node-opcua-assert)": {
+    "dependencies": [
+      "chalk@4.1.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-basic-types@2.121.0 (node_modules/node-opcua-basic-types)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-buffer-utils@2.120.0",
+      "node-opcua-date-time@2.121.0",
+      "node-opcua-guid@2.120.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-status-code@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-binary-stream@2.120.0 (node_modules/node-opcua-binary-stream)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-buffer-utils@2.120.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-buffer-utils@2.120.0 (node_modules/node-opcua-buffer-utils)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-certificate-manager@2.121.0 (node_modules/node-opcua-certificate-manager)": {
+    "dependencies": [
+      "@types/mkdirp@1.0.2",
+      "env-paths@2.2.1",
+      "mkdirp@1.0.4",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-crypto@4.8.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-object-registry@2.121.0",
+      "node-opcua-pki@4.10.0",
+      "node-opcua-status-code@2.121.0",
+      "thenify@^3.3.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-chunkmanager@2.123.0 (node_modules/node-opcua-chunkmanager)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-buffer-utils@2.120.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-packet-assembler@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-client@2.124.0 (node_modules/node-opcua-client)": {
+    "dependencies": [
+      "@ster5/global-mutex@^2.0.0",
+      "@types/async@^3.2.24",
+      "async@^3.2.5",
+      "chalk@4.1.2",
+      "node-opcua-alarm-condition@2.124.0",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-buffer-utils@2.120.0",
+      "node-opcua-certificate-manager@2.121.0",
+      "node-opcua-client-dynamic-extension-object@2.124.0",
+      "node-opcua-common@2.123.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-crypto@4.8.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-date-time@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-extension-object@2.121.0",
+      "node-opcua-hostname@2.120.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-object-registry@2.121.0",
+      "node-opcua-pki@4.10.0",
+      "node-opcua-pseudo-session@2.124.0",
+      "node-opcua-schemas@2.123.0",
+      "node-opcua-secure-channel@2.124.0",
+      "node-opcua-service-browse@2.123.0",
+      "node-opcua-service-call@2.123.0",
+      "node-opcua-service-discovery@2.123.0",
+      "node-opcua-service-endpoints@2.123.0",
+      "node-opcua-service-filter@2.123.0",
+      "node-opcua-service-history@2.123.0",
+      "node-opcua-service-query@2.123.0",
+      "node-opcua-service-read@2.123.0",
+      "node-opcua-service-register-node@2.123.0",
+      "node-opcua-service-secure-channel@2.123.0",
+      "node-opcua-service-session@2.123.0",
+      "node-opcua-service-subscription@2.124.0",
+      "node-opcua-service-translate-browse-path@2.123.0",
+      "node-opcua-service-write@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-utils@2.120.0",
+      "node-opcua-variant@2.121.0",
+      "thenify@^3.3.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-client-crawler@2.124.0 (node_modules/node-opcua-client-crawler)": {
+    "dependencies": [
+      "async@^3.2.5",
+      "chalk@4.1.2",
+      "node-opcua-address-space@2.124.0",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-client@2.124.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-service-browse@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-utils@2.120.0",
+      "thenify@^3.3.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-client-dynamic-extension-object@2.124.0 (node_modules/node-opcua-client-dynamic-extension-object)": {
+    "dependencies": [
+      "chalk@4.1.2",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-extension-object@2.121.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-pseudo-session@2.124.0",
+      "node-opcua-schemas@2.123.0",
+      "node-opcua-service-browse@2.123.0",
+      "node-opcua-service-translate-browse-path@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-variant@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-client-proxy@2.124.0 (node_modules/node-opcua-client-proxy)": {
+    "dependencies": [
+      "async@^3.2.5",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-pseudo-session@2.124.0",
+      "node-opcua-service-browse@2.123.0",
+      "node-opcua-service-call@2.123.0",
+      "node-opcua-service-read@2.123.0",
+      "node-opcua-service-subscription@2.124.0",
+      "node-opcua-service-write@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-utils@2.120.0",
+      "node-opcua-variant@2.121.0",
+      "thenify@^3.3.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-common@2.123.0 (node_modules/node-opcua-common)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-crypto@4.8.0",
+      "node-opcua-types@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-constants@2.121.0 (node_modules/node-opcua-constants)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-crypto@4.8.0 (node_modules/node-opcua-crypto)": {
+    "dependencies": [
+      "@peculiar/webcrypto@^1.4.5",
+      "@peculiar/x509@^1.9.7",
+      "@types/jsrsasign@^10.5.12",
+      "@types/sshpk@^1.17.4",
+      "assert@^2.1.0",
+      "chalk@^4.1.2",
+      "hexy@0.3.5",
+      "jsrsasign@^11.1.0",
+      "sshpk@^1.18.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-data-access@2.123.0 (node_modules/node-opcua-data-access)": {
+    "dependencies": [
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-types@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-data-model@2.121.0 (node_modules/node-opcua-data-model)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-enum@2.120.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-status-code@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-data-value@2.121.0 (node_modules/node-opcua-data-value)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-date-time@2.121.0",
+      "node-opcua-enum@2.120.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-variant@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-date-time@2.121.0 (node_modules/node-opcua-date-time)": {
+    "dependencies": [
+      "long@^4.0.0",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-utils@2.120.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-debug@2.121.0 (node_modules/node-opcua-debug)": {
+    "dependencies": [
+      "chalk@4.1.2",
+      "hexy@0.3.5",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-buffer-utils@2.120.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-enum@2.120.0 (node_modules/node-opcua-enum)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-extension-object@2.121.0 (node_modules/node-opcua-extension-object)": {
+    "dependencies": [
+      "chalk@4.1.2",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-nodeid@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-factory@2.121.0 (node_modules/node-opcua-factory)": {
+    "dependencies": [
+      "chalk@4.1.2",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-enum@2.120.0",
+      "node-opcua-guid@2.120.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-utils@2.120.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-file-transfer@2.124.0 (node_modules/node-opcua-file-transfer)": {
+    "dependencies": [
+      "node-opcua-address-space@2.124.0",
+      "node-opcua-address-space-base@2.123.0",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-pseudo-session@2.124.0",
+      "node-opcua-service-call@2.123.0",
+      "node-opcua-service-read@2.123.0",
+      "node-opcua-service-translate-browse-path@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-variant@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-generator@2.123.0 (node_modules/node-opcua-generator)": {
+    "dependencies": [
+      "chalk@4.1.2",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-schemas@2.123.0",
+      "node-opcua-utils@2.120.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-guid@2.120.0 (node_modules/node-opcua-guid)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-hostname@2.120.0 (node_modules/node-opcua-hostname)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-nodeid@2.121.0 (node_modules/node-opcua-nodeid)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-guid@2.120.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-nodeset-ua@2.123.0 (node_modules/node-opcua-nodeset-ua)": {
+    "dependencies": [
+      "node-opcua-address-space-base@2.123.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-data-access@2.123.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-extension-object@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-variant@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-nodesets@2.121.0 (node_modules/node-opcua-nodesets)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-numeric-range@2.121.0 (node_modules/node-opcua-numeric-range)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-status-code@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-object-registry@2.121.0 (node_modules/node-opcua-object-registry)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-debug@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-packet-analyzer@2.121.0 (node_modules/node-opcua-packet-analyzer)": {
+    "dependencies": [
+      "chalk@4.1.2",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-utils@2.120.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-packet-assembler@2.121.0 (node_modules/node-opcua-packet-assembler)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-debug@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-pki@4.10.0 (node_modules/node-opcua-pki)": {
+    "dependencies": [
+      "@ster5/global-mutex@^2.0.0",
+      "async@^3.2.5",
+      "byline@^5.0.0",
+      "chalk@4.1.2",
+      "chokidar@^3.6.0",
+      "cli-table@^0.3.11",
+      "node-opcua-crypto@4.8.0",
+      "progress@^2.0.3",
+      "rimraf@4.4.1",
+      "thenify@^3.3.1",
+      "wget-improved-2@^3.3.0",
+      "yargs@17.7.2",
+      "yauzl@^3.1.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "brace-expansion@2.0.1 (node_modules/node-opcua-pki/node_modules/brace-expansion)": {
+    "dependencies": [
+      "balanced-match@^1.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "cliui@8.0.1 (node_modules/node-opcua-pki/node_modules/cliui)": {
+    "dependencies": [
+      "string-width@^4.2.0",
+      "strip-ansi@^6.0.1",
+      "wrap-ansi@^7.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "glob@9.3.5 (node_modules/node-opcua-pki/node_modules/glob)": {
+    "dependencies": [
+      "fs.realpath@^1.0.0",
+      "minimatch@^8.0.2",
+      "minipass@^4.2.4",
+      "path-scurry@^1.6.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "minimatch@8.0.4 (node_modules/node-opcua-pki/node_modules/minimatch)": {
+    "dependencies": [
+      "brace-expansion@^2.0.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "rimraf@4.4.1 (node_modules/node-opcua-pki/node_modules/rimraf)": {
+    "dependencies": [
+      "glob@^9.2.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "yargs@17.7.2 (node_modules/node-opcua-pki/node_modules/yargs)": {
+    "dependencies": [
+      "cliui@^8.0.1",
+      "escalade@^3.1.1",
+      "get-caller-file@^2.0.5",
+      "require-directory@^2.1.1",
+      "string-width@^4.2.3",
+      "y18n@^5.0.5",
+      "yargs-parser@^21.1.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "yargs-parser@21.1.1 (node_modules/node-opcua-pki/node_modules/yargs-parser)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-pseudo-session@2.124.0 (node_modules/node-opcua-pseudo-session)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-service-browse@2.123.0",
+      "node-opcua-service-call@2.123.0",
+      "node-opcua-service-filter@2.123.0",
+      "node-opcua-service-read@2.123.0",
+      "node-opcua-service-subscription@2.124.0",
+      "node-opcua-service-translate-browse-path@2.123.0",
+      "node-opcua-service-write@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-utils@2.120.0",
+      "node-opcua-variant@2.121.0",
+      "thenify@^3.3.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-schemas@2.123.0 (node_modules/node-opcua-schemas)": {
+    "dependencies": [
+      "chalk@4.1.2",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-extension-object@2.121.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-variant@2.121.0",
+      "node-opcua-xml2json@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-secure-channel@2.124.0 (node_modules/node-opcua-secure-channel)": {
+    "dependencies": [
+      "async@^3.2.5",
+      "backoff@^2.5.0",
+      "chalk@4.1.2",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-certificate-manager@2.121.0",
+      "node-opcua-chunkmanager@2.123.0",
+      "node-opcua-common@2.123.0",
+      "node-opcua-crypto@4.8.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-object-registry@2.121.0",
+      "node-opcua-packet-analyzer@2.121.0",
+      "node-opcua-service-endpoints@2.123.0",
+      "node-opcua-service-secure-channel@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-transport@2.123.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-utils@2.120.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-server@2.124.0 (node_modules/node-opcua-server)": {
+    "dependencies": [
+      "@ster5/global-mutex@^2.0.0",
+      "async@^3.2.5",
+      "chalk@4.1.2",
+      "dequeue@^1.0.5",
+      "lodash@4.17.21",
+      "node-opcua-address-space@2.124.0",
+      "node-opcua-address-space-base@2.123.0",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-certificate-manager@2.121.0",
+      "node-opcua-client@2.124.0",
+      "node-opcua-client-dynamic-extension-object@2.124.0",
+      "node-opcua-common@2.123.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-crypto@4.8.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-date-time@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-extension-object@2.121.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-hostname@2.120.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-nodesets@2.121.0",
+      "node-opcua-numeric-range@2.121.0",
+      "node-opcua-object-registry@2.121.0",
+      "node-opcua-secure-channel@2.124.0",
+      "node-opcua-service-browse@2.123.0",
+      "node-opcua-service-call@2.123.0",
+      "node-opcua-service-discovery@2.123.0",
+      "node-opcua-service-endpoints@2.123.0",
+      "node-opcua-service-filter@2.123.0",
+      "node-opcua-service-history@2.123.0",
+      "node-opcua-service-node-management@2.123.0",
+      "node-opcua-service-query@2.123.0",
+      "node-opcua-service-read@2.123.0",
+      "node-opcua-service-register-node@2.123.0",
+      "node-opcua-service-secure-channel@2.123.0",
+      "node-opcua-service-session@2.123.0",
+      "node-opcua-service-subscription@2.124.0",
+      "node-opcua-service-translate-browse-path@2.123.0",
+      "node-opcua-service-write@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-transport@2.123.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-utils@2.120.0",
+      "node-opcua-variant@2.121.0",
+      "thenify@^3.3.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-server-discovery@2.124.0 (node_modules/node-opcua-server-discovery)": {
+    "dependencies": [
+      "chalk@4.1.2",
+      "env-paths@2.2.1",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-certificate-manager@2.121.0",
+      "node-opcua-common@2.123.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-hostname@2.120.0",
+      "node-opcua-object-registry@2.121.0",
+      "node-opcua-secure-channel@2.124.0",
+      "node-opcua-server@2.124.0",
+      "node-opcua-service-discovery@2.123.0",
+      "node-opcua-service-endpoints@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "sterfive-bonjour-service@1.1.4",
+      "thenify@^3.3.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-browse@2.123.0 (node_modules/node-opcua-service-browse)": {
+    "dependencies": [
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-types@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-call@2.123.0 (node_modules/node-opcua-service-call)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-variant@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-discovery@2.123.0 (node_modules/node-opcua-service-discovery)": {
+    "dependencies": [
+      "chalk@4.1.2",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-object-registry@2.121.0",
+      "node-opcua-types@2.123.0",
+      "sterfive-bonjour-service@1.1.4"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-endpoints@2.123.0 (node_modules/node-opcua-service-endpoints)": {
+    "dependencies": [
+      "node-opcua-types@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-filter@2.123.0 (node_modules/node-opcua-service-filter)": {
+    "dependencies": [
+      "node-opcua-address-space-base@2.123.0",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-extension-object@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-service-translate-browse-path@2.123.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-variant@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-history@2.123.0 (node_modules/node-opcua-service-history)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-types@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-node-management@2.123.0 (node_modules/node-opcua-service-node-management)": {
+    "dependencies": [
+      "node-opcua-types@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-query@2.123.0 (node_modules/node-opcua-service-query)": {
+    "dependencies": [
+      "node-opcua-types@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-read@2.123.0 (node_modules/node-opcua-service-read)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-service-secure-channel@2.123.0",
+      "node-opcua-types@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-register-node@2.123.0 (node_modules/node-opcua-service-register-node)": {
+    "dependencies": [
+      "node-opcua-types@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-secure-channel@2.123.0 (node_modules/node-opcua-service-secure-channel)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-types@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-session@2.123.0 (node_modules/node-opcua-service-session)": {
+    "dependencies": [
+      "node-opcua-factory@2.121.0",
+      "node-opcua-types@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-subscription@2.124.0 (node_modules/node-opcua-service-subscription)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-types@2.123.0",
+      "node-opcua-variant@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-translate-browse-path@2.123.0 (node_modules/node-opcua-service-translate-browse-path)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-types@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-service-write@2.123.0 (node_modules/node-opcua-service-write)": {
+    "dependencies": [
+      "node-opcua-types@2.123.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-status-code@2.121.0 (node_modules/node-opcua-status-code)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-binary-stream@2.120.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-transport@2.123.0 (node_modules/node-opcua-transport)": {
+    "dependencies": [
+      "chalk@4.1.2",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-buffer-utils@2.120.0",
+      "node-opcua-chunkmanager@2.123.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-object-registry@2.121.0",
+      "node-opcua-packet-assembler@2.121.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-utils@2.120.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-types@2.123.0 (node_modules/node-opcua-types)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-data-value@2.121.0",
+      "node-opcua-enum@2.120.0",
+      "node-opcua-extension-object@2.121.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-generator@2.123.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-numeric-range@2.121.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-variant@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-utils@2.120.0 (node_modules/node-opcua-utils)": {
+    "dependencies": [
+      "chalk@4.1.2",
+      "node-opcua-assert@2.120.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-variant@2.121.0 (node_modules/node-opcua-variant)": {
+    "dependencies": [
+      "node-opcua-assert@2.120.0",
+      "node-opcua-basic-types@2.121.0",
+      "node-opcua-binary-stream@2.120.0",
+      "node-opcua-data-model@2.121.0",
+      "node-opcua-enum@2.120.0",
+      "node-opcua-factory@2.121.0",
+      "node-opcua-nodeid@2.121.0",
+      "node-opcua-utils@2.120.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-vendor-diagnostic@2.124.0 (node_modules/node-opcua-vendor-diagnostic)": {
+    "dependencies": [
+      "humanize@0.0.9",
+      "node-opcua-address-space@2.124.0",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-constants@2.121.0",
+      "node-opcua-debug@2.121.0",
+      "node-opcua-server@2.124.0",
+      "node-opcua-status-code@2.121.0",
+      "node-opcua-variant@2.121.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "node-opcua-xml2json@2.123.0 (node_modules/node-opcua-xml2json)": {
+    "dependencies": [
+      "ltx@^3.0.0",
+      "node-opcua-assert@2.120.0",
+      "node-opcua-utils@2.120.0",
+      "thenify@^3.3.1",
+      "xml-writer@^1.7.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "normalize-path@3.0.0 (node_modules/normalize-path)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "object-assign@4.1.1 (node_modules/object-assign)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "object-inspect@1.13.2 (node_modules/object-inspect)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "object-is@1.1.5 (node_modules/object-is)": {
+    "dependencies": [
+      "call-bind@^1.0.2",
+      "define-properties@^1.1.3"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "object-keys@1.1.1 (node_modules/object-keys)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "object.assign@4.1.5 (node_modules/object.assign)": {
+    "dependencies": [
+      "call-bind@^1.0.5",
+      "define-properties@^1.2.1",
+      "has-symbols@^1.0.3",
+      "object-keys@^1.1.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "on-finished@2.3.0 (node_modules/on-finished)": {
+    "dependencies": [
+      "ee-first@1.1.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "once@1.4.0 (node_modules/once)": {
+    "dependencies": [
+      "wrappy@1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "os-locale@6.0.2 (node_modules/os-locale)": {
+    "dependencies": [
+      "lcid@^3.1.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "parseurl@1.3.3 (node_modules/parseurl)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "path-is-absolute@1.0.1 (node_modules/path-is-absolute)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "path-scurry@1.10.2 (node_modules/path-scurry)": {
+    "dependencies": [
+      "lru-cache@^10.2.0",
+      "minipass@^5.0.0 || ^6.0.2 || ^7.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "lru-cache@10.2.0 (node_modules/path-scurry/node_modules/lru-cache)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "minipass@7.0.4 (node_modules/path-scurry/node_modules/minipass)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "pend@1.2.0 (node_modules/pend)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "picomatch@2.3.0 (node_modules/picomatch)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "precond@0.2.3 (node_modules/precond)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "progress@2.0.3 (node_modules/progress)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "proper-lockfile@4.1.2 (node_modules/proper-lockfile)": {
+    "dependencies": [
+      "graceful-fs@^4.2.4",
+      "retry@^0.12.0",
+      "signal-exit@^3.0.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "pvtsutils@1.3.5 (node_modules/pvtsutils)": {
+    "dependencies": [
+      "tslib@^2.6.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "pvutils@1.1.3 (node_modules/pvutils)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "qjobs@1.2.0 (node_modules/qjobs)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "qs@6.13.0 (node_modules/qs)": {
+    "dependencies": [
+      "side-channel@^1.0.6"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "range-parser@1.2.1 (node_modules/range-parser)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "raw-body@2.5.2 (node_modules/raw-body)": {
+    "dependencies": [
+      "bytes@3.1.2",
+      "http-errors@2.0.0",
+      "iconv-lite@0.4.24",
+      "unpipe@1.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "readdirp@3.6.0 (node_modules/readdirp)": {
+    "dependencies": [
+      "picomatch@^2.2.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "reflect-metadata@0.2.1 (node_modules/reflect-metadata)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "require-directory@2.1.1 (node_modules/require-directory)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "requires-port@1.0.0 (node_modules/requires-port)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "retry@0.12.0 (node_modules/retry)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "rfdc@1.3.0 (node_modules/rfdc)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "rimraf@3.0.2 (node_modules/rimraf)": {
+    "dependencies": [
+      "glob@^7.1.3"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "safer-buffer@2.1.2 (node_modules/safer-buffer)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "semver@7.6.0 (node_modules/semver)": {
+    "dependencies": [
+      "lru-cache@^6.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "set-function-length@1.2.2 (node_modules/set-function-length)": {
+    "dependencies": [
+      "define-data-property@^1.1.4",
+      "es-errors@^1.3.0",
+      "function-bind@^1.1.2",
+      "get-intrinsic@^1.2.4",
+      "gopd@^1.0.1",
+      "has-property-descriptors@^1.0.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "set-prototype-of@1.0.0 (node_modules/set-prototype-of)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "setprototypeof@1.2.0 (node_modules/setprototypeof)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "side-channel@1.0.6 (node_modules/side-channel)": {
+    "dependencies": [
+      "call-bind@^1.0.7",
+      "es-errors@^1.3.0",
+      "get-intrinsic@^1.2.4",
+      "object-inspect@^1.13.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "signal-exit@3.0.7 (node_modules/signal-exit)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "socket.io@4.8.0 (node_modules/socket.io)": {
+    "dependencies": [
+      "accepts@~1.3.4",
+      "base64id@~2.0.0",
+      "cors@~2.8.5",
+      "debug@~4.3.2",
+      "engine.io@~6.6.0",
+      "socket.io-adapter@~2.5.2",
+      "socket.io-parser@~4.2.4"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "socket.io-adapter@2.5.2 (node_modules/socket.io-adapter)": {
+    "dependencies": [
+      "ws@~8.11.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "socket.io-parser@4.2.4 (node_modules/socket.io-parser)": {
+    "dependencies": [
+      "@socket.io/component-emitter@~3.1.0",
+      "debug@~4.3.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "debug@4.3.4 (node_modules/socket.io-parser/node_modules/debug)": {
+    "dependencies": [
+      "ms@2.1.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "ms@2.1.2 (node_modules/socket.io-parser/node_modules/ms)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "debug@4.3.3 (node_modules/socket.io/node_modules/debug)": {
+    "dependencies": [
+      "ms@2.1.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "ms@2.1.2 (node_modules/socket.io/node_modules/ms)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "source-map@0.6.1 (node_modules/source-map)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "sshpk@1.18.0 (node_modules/sshpk)": {
+    "dependencies": [
+      "asn1@~0.2.3",
+      "assert-plus@^1.0.0",
+      "bcrypt-pbkdf@^1.0.0",
+      "dashdash@^1.12.0",
+      "ecc-jsbn@~0.1.1",
+      "getpass@^0.1.1",
+      "jsbn@~0.1.0",
+      "safer-buffer@^2.0.2",
+      "tweetnacl@~0.14.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "statuses@1.5.0 (node_modules/statuses)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "sterfive-bonjour-service@1.1.4 (node_modules/sterfive-bonjour-service)": {
+    "dependencies": [
+      "@types/multicast-dns@^7.2.1",
+      "array-flatten@^2.1.2",
+      "dns-equal@^1.0.0",
+      "fast-deep-equal@^3.1.3",
+      "multicast-dns@^7.2.4"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "streamroller@3.0.4 (node_modules/streamroller)": {
+    "dependencies": [
+      "date-format@^4.0.4",
+      "debug@^4.3.3",
+      "fs-extra@^10.0.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "debug@4.3.3 (node_modules/streamroller/node_modules/debug)": {
+    "dependencies": [
+      "ms@2.1.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "ms@2.1.2 (node_modules/streamroller/node_modules/ms)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "string-width@4.2.3 (node_modules/string-width)": {
+    "dependencies": [
+      "emoji-regex@^8.0.0",
+      "is-fullwidth-code-point@^3.0.0",
+      "strip-ansi@^6.0.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "strip-ansi@6.0.1 (node_modules/strip-ansi)": {
+    "dependencies": [
+      "ansi-regex@^5.0.1"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "supports-color@7.2.0 (node_modules/supports-color)": {
+    "dependencies": [
+      "has-flag@^4.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "thenify@3.3.1 (node_modules/thenify)": {
+    "dependencies": [
+      "any-promise@^1.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "thunky@1.1.0 (node_modules/thunky)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "tmp@0.2.1 (node_modules/tmp)": {
+    "dependencies": [
+      "rimraf@^3.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "to-regex-range@5.0.1 (node_modules/to-regex-range)": {
+    "dependencies": [
+      "is-number@^7.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "toidentifier@1.0.1 (node_modules/toidentifier)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "tslib@2.6.2 (node_modules/tslib)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "tsyringe@4.8.0 (node_modules/tsyringe)": {
+    "dependencies": [
+      "tslib@^1.9.3"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "tslib@1.14.1 (node_modules/tsyringe/node_modules/tslib)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "tunnel@0.0.6 (node_modules/tunnel)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "tweetnacl@0.14.5 (node_modules/tweetnacl)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "type-is@1.6.18 (node_modules/type-is)": {
+    "dependencies": [
+      "media-typer@0.3.0",
+      "mime-types@~2.1.24"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "ua-parser-js@0.7.33 (node_modules/ua-parser-js)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "universalify@2.0.0 (node_modules/universalify)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "unpipe@1.0.0 (node_modules/unpipe)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "util@0.12.5 (node_modules/util)": {
+    "dependencies": [
+      "inherits@^2.0.3",
+      "is-arguments@^1.0.4",
+      "is-generator-function@^1.0.7",
+      "is-typed-array@^1.1.3",
+      "which-typed-array@^1.1.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "utils-merge@1.0.1 (node_modules/utils-merge)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "vary@1.1.2 (node_modules/vary)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "void-elements@2.0.1 (node_modules/void-elements)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "webcrypto-core@1.7.8 (node_modules/webcrypto-core)": {
+    "dependencies": [
+      "@peculiar/asn1-schema@^2.3.8",
+      "@peculiar/json-schema@^1.1.12",
+      "asn1js@^3.0.1",
+      "pvtsutils@^1.3.5",
+      "tslib@^2.6.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "wget-improved-2@3.3.0 (node_modules/wget-improved-2)": {
+    "dependencies": [
+      "minimist@1.2.6",
+      "tunnel@0.0.6"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "minimist@1.2.6 (node_modules/wget-improved-2/node_modules/minimist)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "which@1.3.1 (node_modules/which)": {
+    "dependencies": [
+      "isexe@^2.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "which-typed-array@1.1.13 (node_modules/which-typed-array)": {
+    "dependencies": [
+      "available-typed-arrays@^1.0.5",
+      "call-bind@^1.0.4",
+      "for-each@^0.3.3",
+      "gopd@^1.0.1",
+      "has-tostringtag@^1.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "wrap-ansi@7.0.0 (node_modules/wrap-ansi)": {
+    "dependencies": [
+      "ansi-styles@^4.0.0",
+      "string-width@^4.1.0",
+      "strip-ansi@^6.0.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "wrappy@1.0.2 (node_modules/wrappy)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "ws@8.11.0 (node_modules/ws)": {
+    "dependencies": [],
+    "peerDependencies": [
+      "bufferutil@^4.0.1",
+      "utf-8-validate@^5.0.2"
+    ],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "xml-writer@1.7.0 (node_modules/xml-writer)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "y18n@5.0.8 (node_modules/y18n)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "yallist@4.0.0 (node_modules/yallist)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  },
+  "yargs@16.2.0 (node_modules/yargs)": {
+    "dependencies": [
+      "cliui@^7.0.2",
+      "escalade@^3.1.1",
+      "get-caller-file@^2.0.5",
+      "require-directory@^2.1.1",
+      "string-width@^4.2.0",
+      "y18n@^5.0.5",
+      "yargs-parser@^20.2.2"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "yargs-parser@20.2.7 (node_modules/yargs-parser)": {
+    "dependencies": [],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": true
+  },
+  "yauzl@3.1.2 (node_modules/yauzl)": {
+    "dependencies": [
+      "buffer-crc32@~0.2.3",
+      "pend@~1.2.0"
+    ],
+    "peerDependencies": [],
+    "optionalDependencies": [],
+    "isDevDependency": false
+  }
+}

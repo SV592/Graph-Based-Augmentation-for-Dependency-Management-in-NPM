@@ -1,0 +1,1912 @@
+{
+  "@babel/code-frame@7.0.0": {
+    "dependencies": [
+      "@babel/highlight@^7.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@babel/generator@7.4.4": {
+    "dependencies": [
+      "@babel/types@^7.4.4",
+      "jsesc@^2.5.1",
+      "lodash@^4.17.11",
+      "source-map@^0.5.0",
+      "trim-right@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "source-map@0.5.7": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@babel/helper-function-name@7.1.0": {
+    "dependencies": [
+      "@babel/helper-get-function-arity@^7.0.0",
+      "@babel/template@^7.1.0",
+      "@babel/types@^7.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@babel/helper-get-function-arity@7.0.0": {
+    "dependencies": [
+      "@babel/types@^7.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@babel/helper-split-export-declaration@7.4.4": {
+    "dependencies": [
+      "@babel/types@^7.4.4"
+    ],
+    "isDevDependency": true
+  },
+  "@babel/highlight@7.0.0": {
+    "dependencies": [
+      "chalk@^2.0.0",
+      "esutils@^2.0.2",
+      "js-tokens@^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@babel/parser@7.4.5": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@babel/template@7.4.4": {
+    "dependencies": [
+      "@babel/code-frame@^7.0.0",
+      "@babel/parser@^7.4.4",
+      "@babel/types@^7.4.4"
+    ],
+    "isDevDependency": true
+  },
+  "@babel/traverse@7.4.5": {
+    "dependencies": [
+      "@babel/code-frame@^7.0.0",
+      "@babel/generator@^7.4.4",
+      "@babel/helper-function-name@^7.1.0",
+      "@babel/helper-split-export-declaration@^7.4.4",
+      "@babel/parser@^7.4.5",
+      "@babel/types@^7.4.4",
+      "debug@^4.1.0",
+      "globals@^11.1.0",
+      "lodash@^4.17.11"
+    ],
+    "isDevDependency": true
+  },
+  "@babel/types@7.4.4": {
+    "dependencies": [
+      "esutils@^2.0.2",
+      "lodash@^4.17.11",
+      "to-fast-properties@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@mrmlnc/readdir-enhanced@2.2.1": {
+    "dependencies": [
+      "call-me-maybe@^1.0.1",
+      "glob-to-regexp@^0.3.0"
+    ],
+    "isDevDependency": true
+  },
+  "@nodelib/fs.stat@1.1.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@polymer/font-roboto@3.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@polymer/gen-typescript-declarations@1.6.2": {
+    "dependencies": [
+      "@babel/types@^7.0.0-beta.42",
+      "@types/command-line-args@^5.0.0",
+      "@types/command-line-usage@^5.0.1",
+      "@types/doctrine@0.0.3",
+      "@types/fs-extra@^5.0.0",
+      "@types/glob@^5.0.35",
+      "@types/parse5@^2.2.34",
+      "babylon@^7.0.0-beta.42",
+      "command-line-args@^5.0.1",
+      "command-line-usage@^5.0.2",
+      "doctrine@^2.0.0",
+      "escodegen@^1.9.0",
+      "fs-extra@^6.0.1",
+      "glob@^7.1.2",
+      "minimatch@^3.0.4",
+      "polymer-analyzer@^3.0.2",
+      "source-map-support@^0.5.9",
+      "typescript@^3.0.1",
+      "vscode-uri@=1.0.6"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-a11y-keys-behavior@3.0.1": {
+    "dependencies": [
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-ajax@3.0.1": {
+    "dependencies": [
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-behaviors@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-a11y-keys-behavior@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-checked-element-behavior@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-form-element-behavior@^3.0.0-pre.26",
+      "@polymer/iron-validatable-behavior@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-flex-layout@3.0.1": {
+    "dependencies": [
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": false
+  },
+  "@polymer/iron-form-element-behavior@3.0.1": {
+    "dependencies": [
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-icon@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-flex-layout@^3.0.0-pre.26",
+      "@polymer/iron-meta@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-icons@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-icon@^3.0.0-pre.26",
+      "@polymer/iron-iconset-svg@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-iconset-svg@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-meta@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-list@3.0.2": {
+    "dependencies": [
+      "@polymer/iron-a11y-keys-behavior@^3.0.0-pre.26",
+      "@polymer/iron-resizable-behavior@^3.0.0-pre.26",
+      "@polymer/iron-scroll-target-behavior@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-media-query@3.0.1": {
+    "dependencies": [
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": false
+  },
+  "@polymer/iron-menu-behavior@3.0.2": {
+    "dependencies": [
+      "@polymer/iron-a11y-keys-behavior@^3.0.0-pre.26",
+      "@polymer/iron-flex-layout@^3.0.0-pre.26",
+      "@polymer/iron-selector@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-meta@3.0.1": {
+    "dependencies": [
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-pages@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-resizable-behavior@^3.0.0-pre.26",
+      "@polymer/iron-selector@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-range-behavior@3.0.1": {
+    "dependencies": [
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-resizable-behavior@3.0.1": {
+    "dependencies": [
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": false
+  },
+  "@polymer/iron-scroll-target-behavior@3.0.1": {
+    "dependencies": [
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": false
+  },
+  "@polymer/iron-scroll-threshold@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-scroll-target-behavior@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-selector@3.0.1": {
+    "dependencies": [
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/iron-validatable-behavior@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-meta@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/paper-behaviors@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-behaviors@^3.0.0-pre.26",
+      "@polymer/iron-checked-element-behavior@^3.0.0-pre.26",
+      "@polymer/paper-ripple@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/paper-fab@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-flex-layout@^3.0.0-pre.26",
+      "@polymer/iron-icon@^3.0.0-pre.26",
+      "@polymer/paper-behaviors@^3.0.0-pre.27",
+      "@polymer/paper-styles@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/paper-icon-button@3.0.2": {
+    "dependencies": [
+      "@polymer/iron-icon@^3.0.0-pre.26",
+      "@polymer/paper-behaviors@^3.0.0-pre.27",
+      "@polymer/paper-styles@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/paper-item@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-behaviors@^3.0.0-pre.26",
+      "@polymer/iron-flex-layout@^3.0.0-pre.26",
+      "@polymer/paper-styles@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/paper-listbox@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-behaviors@^3.0.0-pre.26",
+      "@polymer/iron-menu-behavior@^3.0.0-pre.26",
+      "@polymer/paper-styles@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/paper-progress@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-flex-layout@^3.0.0-pre.26",
+      "@polymer/iron-range-behavior@^3.0.0-pre.26",
+      "@polymer/paper-styles@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/paper-ripple@3.0.1": {
+    "dependencies": [
+      "@polymer/iron-a11y-keys-behavior@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/paper-spinner@3.0.2": {
+    "dependencies": [
+      "@polymer/paper-styles@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/paper-styles@3.0.1": {
+    "dependencies": [
+      "@polymer/font-roboto@^3.0.1",
+      "@polymer/iron-flex-layout@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/paper-tabs@3.1.0": {
+    "dependencies": [
+      "@polymer/iron-behaviors@^3.0.0-pre.26",
+      "@polymer/iron-flex-layout@^3.0.0-pre.26",
+      "@polymer/iron-icon@^3.0.0-pre.26",
+      "@polymer/iron-iconset-svg@^3.0.0-pre.26",
+      "@polymer/iron-menu-behavior@^3.0.0-pre.26",
+      "@polymer/iron-resizable-behavior@^3.0.0-pre.26",
+      "@polymer/paper-behaviors@^3.0.0-pre.27",
+      "@polymer/paper-icon-button@^3.0.0-pre.26",
+      "@polymer/paper-styles@^3.0.0-pre.26",
+      "@polymer/polymer@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/polymer@3.2.0": {
+    "dependencies": [
+      "@webcomponents/shadycss@^1.8.0"
+    ],
+    "isDevDependency": false
+  },
+  "@polymer/sinonjs@1.17.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@polymer/test-fixture@4.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/babel-generator@6.25.3": {
+    "dependencies": [
+      "@types/babel-types@*"
+    ],
+    "isDevDependency": true
+  },
+  "@types/babel-traverse@6.25.5": {
+    "dependencies": [
+      "@types/babel-types@*"
+    ],
+    "isDevDependency": true
+  },
+  "@types/babel-types@6.25.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/babylon@6.16.5": {
+    "dependencies": [
+      "@types/babel-types@*"
+    ],
+    "isDevDependency": true
+  },
+  "@types/chai@4.1.7": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/chai-subset@1.3.2": {
+    "dependencies": [
+      "@types/chai@*"
+    ],
+    "isDevDependency": true
+  },
+  "@types/chalk@0.4.31": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/clone@0.1.30": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/command-line-args@5.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/command-line-usage@5.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/cssbeautify@0.3.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/doctrine@0.0.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/events@3.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/fs-extra@5.1.0": {
+    "dependencies": [
+      "@types/node@*"
+    ],
+    "isDevDependency": true
+  },
+  "@types/glob@5.0.36": {
+    "dependencies": [
+      "@types/events@*",
+      "@types/minimatch@*",
+      "@types/node@*"
+    ],
+    "isDevDependency": true
+  },
+  "@types/is-windows@0.2.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/minimatch@3.0.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/node@12.0.8": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/parse5@2.2.34": {
+    "dependencies": [
+      "@types/node@*"
+    ],
+    "isDevDependency": true
+  },
+  "@types/path-is-inside@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/resolve@0.0.6": {
+    "dependencies": [
+      "@types/node@*"
+    ],
+    "isDevDependency": true
+  },
+  "@types/whatwg-url@6.4.0": {
+    "dependencies": [
+      "@types/node@*"
+    ],
+    "isDevDependency": true
+  },
+  "@webcomponents/shadycss@1.9.1": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "@webcomponents/webcomponentsjs@2.2.10": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "accessibility-developer-tools@2.12.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "ansi-regex@2.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "ansi-styles@3.2.1": {
+    "dependencies": [
+      "color-convert@^1.9.0"
+    ],
+    "isDevDependency": true
+  },
+  "arr-diff@4.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "arr-flatten@1.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "arr-union@3.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "array-back@3.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "array-unique@0.3.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "assertion-error@1.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "assign-symbols@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "async@1.5.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "atob@2.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babylon@7.0.0-beta.47": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "balanced-match@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "base@0.11.2": {
+    "dependencies": [
+      "cache-base@^1.0.1",
+      "class-utils@^0.3.5",
+      "component-emitter@^1.2.1",
+      "define-property@^1.0.0",
+      "isobject@^3.0.1",
+      "mixin-deep@^1.2.0",
+      "pascalcase@^0.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "define-property@1.0.0": {
+    "dependencies": [
+      "is-descriptor@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "is-accessor-descriptor@1.0.0": {
+    "dependencies": [
+      "kind-of@^6.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "is-data-descriptor@1.0.0": {
+    "dependencies": [
+      "kind-of@^6.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "is-descriptor@1.0.2": {
+    "dependencies": [
+      "is-accessor-descriptor@^1.0.0",
+      "is-data-descriptor@^1.0.0",
+      "kind-of@^6.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "brace-expansion@1.1.11": {
+    "dependencies": [
+      "balanced-match@^1.0.0",
+      "concat-map@0.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "braces@2.3.2": {
+    "dependencies": [
+      "arr-flatten@^1.1.0",
+      "array-unique@^0.3.2",
+      "extend-shallow@^2.0.1",
+      "fill-range@^4.0.0",
+      "isobject@^3.0.1",
+      "repeat-element@^1.1.2",
+      "snapdragon@^0.8.1",
+      "snapdragon-node@^2.0.1",
+      "split-string@^3.0.2",
+      "to-regex@^3.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "extend-shallow@2.0.1": {
+    "dependencies": [
+      "is-extendable@^0.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "browser-stdout@1.3.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "buffer-from@1.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "cache-base@1.0.1": {
+    "dependencies": [
+      "collection-visit@^1.0.0",
+      "component-emitter@^1.2.1",
+      "get-value@^2.0.6",
+      "has-value@^1.0.0",
+      "isobject@^3.0.1",
+      "set-value@^2.0.0",
+      "to-object-path@^0.3.0",
+      "union-value@^1.0.0",
+      "unset-value@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "call-me-maybe@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "cancel-token@0.1.1": {
+    "dependencies": [
+      "@types/node@^4.0.30"
+    ],
+    "isDevDependency": true
+  },
+  "@types/node@4.9.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "chai@3.5.0": {
+    "dependencies": [
+      "assertion-error@^1.0.1",
+      "deep-eql@^0.1.3",
+      "type-detect@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "chalk@2.4.2": {
+    "dependencies": [
+      "ansi-styles@^3.2.1",
+      "escape-string-regexp@^1.0.5",
+      "supports-color@^5.3.0"
+    ],
+    "isDevDependency": true
+  },
+  "clang-format@1.2.4": {
+    "dependencies": [
+      "async@^1.5.2",
+      "glob@^7.0.0",
+      "resolve@^1.1.6"
+    ],
+    "isDevDependency": true
+  },
+  "class-utils@0.3.6": {
+    "dependencies": [
+      "arr-union@^3.1.0",
+      "define-property@^0.2.5",
+      "isobject@^3.0.0",
+      "static-extend@^0.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "define-property@0.2.5": {
+    "dependencies": [
+      "is-descriptor@^0.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "clone@2.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "collection-visit@1.0.0": {
+    "dependencies": [
+      "map-visit@^1.0.0",
+      "object-visit@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "color-convert@1.9.3": {
+    "dependencies": [
+      "color-name@1.1.3"
+    ],
+    "isDevDependency": true
+  },
+  "color-name@1.1.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "command-line-args@5.1.1": {
+    "dependencies": [
+      "array-back@^3.0.1",
+      "find-replace@^3.0.0",
+      "lodash.camelcase@^4.3.0",
+      "typical@^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "command-line-usage@5.0.5": {
+    "dependencies": [
+      "array-back@^2.0.0",
+      "chalk@^2.4.1",
+      "table-layout@^0.4.3",
+      "typical@^2.6.1"
+    ],
+    "isDevDependency": true
+  },
+  "array-back@2.0.0": {
+    "dependencies": [
+      "typical@^2.6.1"
+    ],
+    "isDevDependency": true
+  },
+  "typical@2.6.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "commander@2.9.0": {
+    "dependencies": [
+      "graceful-readlink@>= 1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "component-emitter@1.3.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "concat-map@0.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "copy-descriptor@0.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "cssbeautify@0.3.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "debug@4.1.1": {
+    "dependencies": [
+      "ms@^2.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "decode-uri-component@0.2.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "deep-eql@0.1.3": {
+    "dependencies": [
+      "type-detect@0.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "type-detect@0.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "deep-extend@0.6.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "deep-is@0.1.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "define-properties@1.1.3": {
+    "dependencies": [
+      "object-keys@^1.0.12"
+    ],
+    "isDevDependency": true
+  },
+  "define-property@2.0.2": {
+    "dependencies": [
+      "is-descriptor@^1.0.2",
+      "isobject@^3.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "diff@3.2.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "doctrine@2.1.0": {
+    "dependencies": [
+      "esutils@^2.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "dom5@3.0.1": {
+    "dependencies": [
+      "@types/parse5@^2.2.34",
+      "clone@^2.1.0",
+      "parse5@^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "es-abstract@1.13.0": {
+    "dependencies": [
+      "es-to-primitive@^1.2.0",
+      "function-bind@^1.1.1",
+      "has@^1.0.3",
+      "is-callable@^1.1.4",
+      "is-regex@^1.0.4",
+      "object-keys@^1.0.12"
+    ],
+    "isDevDependency": true
+  },
+  "es-to-primitive@1.2.0": {
+    "dependencies": [
+      "is-callable@^1.1.4",
+      "is-date-object@^1.0.1",
+      "is-symbol@^1.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "escape-string-regexp@1.0.5": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "escodegen@1.11.1": {
+    "dependencies": [
+      "esprima@^3.1.3",
+      "estraverse@^4.2.0",
+      "esutils@^2.0.2",
+      "optionator@^0.8.1",
+      "source-map@~0.6.1"
+    ],
+    "isDevDependency": true
+  },
+  "esprima@3.1.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "estraverse@4.2.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "esutils@2.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "expand-brackets@2.1.4": {
+    "dependencies": [
+      "debug@^2.3.3",
+      "define-property@^0.2.5",
+      "extend-shallow@^2.0.1",
+      "posix-character-classes@^0.1.0",
+      "regex-not@^1.0.0",
+      "snapdragon@^0.8.1",
+      "to-regex@^3.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "debug@2.6.9": {
+    "dependencies": [
+      "ms@2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "ms@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "extend-shallow@3.0.2": {
+    "dependencies": [
+      "assign-symbols@^1.0.0",
+      "is-extendable@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "is-extendable@1.0.1": {
+    "dependencies": [
+      "is-plain-object@^2.0.4"
+    ],
+    "isDevDependency": true
+  },
+  "extglob@2.0.4": {
+    "dependencies": [
+      "array-unique@^0.3.2",
+      "define-property@^1.0.0",
+      "expand-brackets@^2.1.4",
+      "extend-shallow@^2.0.1",
+      "fragment-cache@^0.2.1",
+      "regex-not@^1.0.0",
+      "snapdragon@^0.8.1",
+      "to-regex@^3.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "fast-glob@2.2.7": {
+    "dependencies": [
+      "@mrmlnc/readdir-enhanced@^2.2.1",
+      "@nodelib/fs.stat@^1.1.2",
+      "glob-parent@^3.1.0",
+      "is-glob@^4.0.0",
+      "merge2@^1.2.3",
+      "micromatch@^3.1.10"
+    ],
+    "isDevDependency": true
+  },
+  "fast-levenshtein@2.0.6": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "fill-range@4.0.0": {
+    "dependencies": [
+      "extend-shallow@^2.0.1",
+      "is-number@^3.0.0",
+      "repeat-string@^1.6.1",
+      "to-regex-range@^2.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "find-replace@3.0.0": {
+    "dependencies": [
+      "array-back@^3.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "for-in@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "formatio@1.1.1": {
+    "dependencies": [
+      "samsam@~1.1"
+    ],
+    "isDevDependency": true
+  },
+  "fragment-cache@0.2.1": {
+    "dependencies": [
+      "map-cache@^0.2.2"
+    ],
+    "isDevDependency": true
+  },
+  "fs-extra@6.0.1": {
+    "dependencies": [
+      "graceful-fs@^4.1.2",
+      "jsonfile@^4.0.0",
+      "universalify@^0.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "fs.realpath@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "function-bind@1.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "get-value@2.0.6": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "glob@7.1.4": {
+    "dependencies": [
+      "fs.realpath@^1.0.0",
+      "inflight@^1.0.4",
+      "inherits@2",
+      "minimatch@^3.0.4",
+      "once@^1.3.0",
+      "path-is-absolute@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "glob-parent@3.1.0": {
+    "dependencies": [
+      "is-glob@^3.1.0",
+      "path-dirname@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "is-glob@3.1.0": {
+    "dependencies": [
+      "is-extglob@^2.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "glob-to-regexp@0.3.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "globals@11.12.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "graceful-fs@4.1.15": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "graceful-readlink@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "growl@1.9.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "has@1.0.3": {
+    "dependencies": [
+      "function-bind@^1.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "has-ansi@2.0.0": {
+    "dependencies": [
+      "ansi-regex@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "has-flag@3.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "has-symbols@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "has-value@1.0.0": {
+    "dependencies": [
+      "get-value@^2.0.6",
+      "has-values@^1.0.0",
+      "isobject@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "has-values@1.0.0": {
+    "dependencies": [
+      "is-number@^3.0.0",
+      "kind-of@^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "kind-of@4.0.0": {
+    "dependencies": [
+      "is-buffer@^1.1.5"
+    ],
+    "isDevDependency": true
+  },
+  "he@1.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "indent@0.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "inflight@1.0.6": {
+    "dependencies": [
+      "once@^1.3.0",
+      "wrappy@1"
+    ],
+    "isDevDependency": true
+  },
+  "inherits@2.0.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-accessor-descriptor@0.1.6": {
+    "dependencies": [
+      "kind-of@^3.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "kind-of@3.2.2": {
+    "dependencies": [
+      "is-buffer@^1.1.5"
+    ],
+    "isDevDependency": true
+  },
+  "is-arguments@1.0.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-buffer@1.1.6": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-callable@1.1.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-data-descriptor@0.1.4": {
+    "dependencies": [
+      "kind-of@^3.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "is-date-object@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-descriptor@0.1.6": {
+    "dependencies": [
+      "is-accessor-descriptor@^0.1.6",
+      "is-data-descriptor@^0.1.4",
+      "kind-of@^5.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "kind-of@5.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-extendable@0.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-extglob@2.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-generator-function@1.0.7": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-glob@4.0.1": {
+    "dependencies": [
+      "is-extglob@^2.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "is-number@3.0.0": {
+    "dependencies": [
+      "kind-of@^3.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "is-plain-object@2.0.4": {
+    "dependencies": [
+      "isobject@^3.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "is-regex@1.0.4": {
+    "dependencies": [
+      "has@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "is-symbol@1.0.2": {
+    "dependencies": [
+      "has-symbols@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "is-windows@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "isarray@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "isobject@3.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "js-tokens@4.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "jsesc@2.5.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "json3@3.3.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "jsonfile@4.0.0": {
+    "dependencies": [
+      "graceful-fs@^4.1.6"
+    ],
+    "isDevDependency": true
+  },
+  "jsonschema@1.2.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "kind-of@6.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "levn@0.3.0": {
+    "dependencies": [
+      "prelude-ls@~1.1.2",
+      "type-check@~0.3.2"
+    ],
+    "isDevDependency": true
+  },
+  "lodash@4.17.11": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash._baseassign@3.2.0": {
+    "dependencies": [
+      "lodash._basecopy@^3.0.0",
+      "lodash.keys@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash._basecopy@3.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash._basecreate@3.0.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash._getnative@3.9.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash._isiterateecall@3.0.9": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash.camelcase@4.3.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash.create@3.1.1": {
+    "dependencies": [
+      "lodash._baseassign@^3.0.0",
+      "lodash._basecreate@^3.0.0",
+      "lodash._isiterateecall@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash.isarguments@3.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash.isarray@3.0.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash.keys@3.1.2": {
+    "dependencies": [
+      "lodash._getnative@^3.0.0",
+      "lodash.isarguments@^3.0.0",
+      "lodash.isarray@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash.padend@4.6.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash.sortby@4.7.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lolex@1.3.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "map-cache@0.2.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "map-visit@1.0.0": {
+    "dependencies": [
+      "object-visit@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "merge2@1.2.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "micromatch@3.1.10": {
+    "dependencies": [
+      "arr-diff@^4.0.0",
+      "array-unique@^0.3.2",
+      "braces@^2.3.1",
+      "define-property@^2.0.2",
+      "extend-shallow@^3.0.2",
+      "extglob@^2.0.4",
+      "fragment-cache@^0.2.1",
+      "kind-of@^6.0.2",
+      "nanomatch@^1.2.9",
+      "object.pick@^1.3.0",
+      "regex-not@^1.0.0",
+      "snapdragon@^0.8.1",
+      "to-regex@^3.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "minimatch@3.0.4": {
+    "dependencies": [
+      "brace-expansion@^1.1.7"
+    ],
+    "isDevDependency": true
+  },
+  "minimist@0.0.8": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "mixin-deep@1.3.1": {
+    "dependencies": [
+      "for-in@^1.0.2",
+      "is-extendable@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "mkdirp@0.5.1": {
+    "dependencies": [
+      "minimist@0.0.8"
+    ],
+    "isDevDependency": true
+  },
+  "mocha@3.5.3": {
+    "dependencies": [
+      "browser-stdout@1.3.0",
+      "commander@2.9.0",
+      "debug@2.6.8",
+      "diff@3.2.0",
+      "escape-string-regexp@1.0.5",
+      "glob@7.1.1",
+      "growl@1.9.2",
+      "he@1.1.1",
+      "json3@3.3.2",
+      "lodash.create@3.1.1",
+      "mkdirp@0.5.1",
+      "supports-color@3.1.2"
+    ],
+    "isDevDependency": true
+  },
+  "debug@2.6.8": {
+    "dependencies": [
+      "ms@2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "glob@7.1.1": {
+    "dependencies": [
+      "fs.realpath@^1.0.0",
+      "inflight@^1.0.4",
+      "inherits@2",
+      "minimatch@^3.0.2",
+      "once@^1.3.0",
+      "path-is-absolute@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "has-flag@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "supports-color@3.1.2": {
+    "dependencies": [
+      "has-flag@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "ms@2.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "nanomatch@1.2.13": {
+    "dependencies": [
+      "arr-diff@^4.0.0",
+      "array-unique@^0.3.2",
+      "define-property@^2.0.2",
+      "extend-shallow@^3.0.2",
+      "fragment-cache@^0.2.1",
+      "is-windows@^1.0.2",
+      "kind-of@^6.0.2",
+      "object.pick@^1.3.0",
+      "regex-not@^1.0.0",
+      "snapdragon@^0.8.1",
+      "to-regex@^3.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "object-copy@0.1.0": {
+    "dependencies": [
+      "copy-descriptor@^0.1.0",
+      "define-property@^0.2.5",
+      "kind-of@^3.0.3"
+    ],
+    "isDevDependency": true
+  },
+  "object-keys@1.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "object-visit@1.0.1": {
+    "dependencies": [
+      "isobject@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "object.entries@1.1.0": {
+    "dependencies": [
+      "define-properties@^1.1.3",
+      "es-abstract@^1.12.0",
+      "function-bind@^1.1.1",
+      "has@^1.0.3"
+    ],
+    "isDevDependency": true
+  },
+  "object.pick@1.3.0": {
+    "dependencies": [
+      "isobject@^3.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "once@1.4.0": {
+    "dependencies": [
+      "wrappy@1"
+    ],
+    "isDevDependency": true
+  },
+  "optionator@0.8.2": {
+    "dependencies": [
+      "deep-is@~0.1.3",
+      "fast-levenshtein@~2.0.4",
+      "levn@~0.3.0",
+      "prelude-ls@~1.1.2",
+      "type-check@~0.3.2",
+      "wordwrap@~1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "parse5@4.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "pascalcase@0.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "path-dirname@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "path-is-absolute@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "path-is-inside@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "path-parse@1.0.6": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "polymer-analyzer@3.2.3": {
+    "dependencies": [
+      "@babel/generator@^7.0.0-beta.42",
+      "@babel/traverse@^7.0.0-beta.42",
+      "@babel/types@^7.0.0-beta.42",
+      "@types/babel-generator@^6.25.1",
+      "@types/babel-traverse@^6.25.2",
+      "@types/babel-types@^6.25.1",
+      "@types/babylon@^6.16.2",
+      "@types/chai-subset@^1.3.0",
+      "@types/chalk@^0.4.30",
+      "@types/clone@^0.1.30",
+      "@types/cssbeautify@^0.3.1",
+      "@types/doctrine@^0.0.1",
+      "@types/is-windows@^0.2.0",
+      "@types/minimatch@^3.0.1",
+      "@types/parse5@^2.2.34",
+      "@types/path-is-inside@^1.0.0",
+      "@types/resolve@0.0.6",
+      "@types/whatwg-url@^6.4.0",
+      "babylon@^7.0.0-beta.42",
+      "cancel-token@^0.1.1",
+      "chalk@^1.1.3",
+      "clone@^2.0.0",
+      "cssbeautify@^0.3.1",
+      "doctrine@^2.0.2",
+      "dom5@^3.0.0",
+      "indent@0.0.2",
+      "is-windows@^1.0.2",
+      "jsonschema@^1.1.0",
+      "minimatch@^3.0.4",
+      "parse5@^4.0.0",
+      "path-is-inside@^1.0.2",
+      "resolve@^1.5.0",
+      "shady-css-parser@^0.1.0",
+      "stable@^0.1.6",
+      "strip-indent@^2.0.0",
+      "vscode-uri@=1.0.6",
+      "whatwg-url@^6.4.0"
+    ],
+    "isDevDependency": true
+  },
+  "@types/doctrine@0.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "ansi-styles@2.2.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "chalk@1.1.3": {
+    "dependencies": [
+      "ansi-styles@^2.2.1",
+      "escape-string-regexp@^1.0.2",
+      "has-ansi@^2.0.0",
+      "strip-ansi@^3.0.0",
+      "supports-color@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "supports-color@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "posix-character-classes@0.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "prelude-ls@1.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "punycode@2.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "reduce-flatten@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "regex-not@1.0.2": {
+    "dependencies": [
+      "extend-shallow@^3.0.2",
+      "safe-regex@^1.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "repeat-element@1.1.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "repeat-string@1.6.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "resolve@1.11.0": {
+    "dependencies": [
+      "path-parse@^1.0.6"
+    ],
+    "isDevDependency": true
+  },
+  "resolve-url@0.2.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "ret@0.1.15": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "safe-buffer@5.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "safe-regex@1.1.0": {
+    "dependencies": [
+      "ret@~0.1.10"
+    ],
+    "isDevDependency": true
+  },
+  "samsam@1.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "set-value@2.0.0": {
+    "dependencies": [
+      "extend-shallow@^2.0.1",
+      "is-extendable@^0.1.1",
+      "is-plain-object@^2.0.3",
+      "split-string@^3.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "shady-css-parser@0.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "sinon@1.17.7": {
+    "dependencies": [
+      "formatio@1.1.1",
+      "lolex@1.3.2",
+      "samsam@1.1.2",
+      "util@>=0.10.3 <1"
+    ],
+    "isDevDependency": true
+  },
+  "sinon-chai@2.14.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "snapdragon@0.8.2": {
+    "dependencies": [
+      "base@^0.11.1",
+      "debug@^2.2.0",
+      "define-property@^0.2.5",
+      "extend-shallow@^2.0.1",
+      "map-cache@^0.2.2",
+      "source-map@^0.5.6",
+      "source-map-resolve@^0.5.0",
+      "use@^3.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "snapdragon-node@2.1.1": {
+    "dependencies": [
+      "define-property@^1.0.0",
+      "isobject@^3.0.0",
+      "snapdragon-util@^3.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "snapdragon-util@3.0.1": {
+    "dependencies": [
+      "kind-of@^3.2.0"
+    ],
+    "isDevDependency": true
+  },
+  "source-map@0.6.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "source-map-resolve@0.5.2": {
+    "dependencies": [
+      "atob@^2.1.1",
+      "decode-uri-component@^0.2.0",
+      "resolve-url@^0.2.1",
+      "source-map-url@^0.4.0",
+      "urix@^0.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "source-map-support@0.5.12": {
+    "dependencies": [
+      "buffer-from@^1.0.0",
+      "source-map@^0.6.0"
+    ],
+    "isDevDependency": true
+  },
+  "source-map-url@0.4.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "split-string@3.1.0": {
+    "dependencies": [
+      "extend-shallow@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "stable@0.1.8": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "stacky@1.3.1": {
+    "dependencies": [
+      "chalk@^1.1.1",
+      "lodash@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash@3.10.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "static-extend@0.1.2": {
+    "dependencies": [
+      "define-property@^0.2.5",
+      "object-copy@^0.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "strip-ansi@3.0.1": {
+    "dependencies": [
+      "ansi-regex@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "strip-indent@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "supports-color@5.5.0": {
+    "dependencies": [
+      "has-flag@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "table-layout@0.4.4": {
+    "dependencies": [
+      "array-back@^2.0.0",
+      "deep-extend@~0.6.0",
+      "lodash.padend@^4.6.1",
+      "typical@^2.6.1",
+      "wordwrapjs@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "to-fast-properties@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "to-object-path@0.3.0": {
+    "dependencies": [
+      "kind-of@^3.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "to-regex@3.0.2": {
+    "dependencies": [
+      "define-property@^2.0.2",
+      "extend-shallow@^3.0.2",
+      "regex-not@^1.0.2",
+      "safe-regex@^1.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "to-regex-range@2.1.1": {
+    "dependencies": [
+      "is-number@^3.0.0",
+      "repeat-string@^1.6.1"
+    ],
+    "isDevDependency": true
+  },
+  "tr46@1.0.1": {
+    "dependencies": [
+      "punycode@^2.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "trim-right@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "type-check@0.3.2": {
+    "dependencies": [
+      "prelude-ls@~1.1.2"
+    ],
+    "isDevDependency": true
+  },
+  "type-detect@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "typescript@3.5.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "typical@4.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "union-value@1.0.0": {
+    "dependencies": [
+      "arr-union@^3.1.0",
+      "get-value@^2.0.6",
+      "is-extendable@^0.1.1",
+      "set-value@^0.4.3"
+    ],
+    "isDevDependency": true
+  },
+  "set-value@0.4.3": {
+    "dependencies": [
+      "extend-shallow@^2.0.1",
+      "is-extendable@^0.1.1",
+      "is-plain-object@^2.0.1",
+      "to-object-path@^0.3.0"
+    ],
+    "isDevDependency": true
+  },
+  "universalify@0.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "unset-value@1.0.0": {
+    "dependencies": [
+      "has-value@^0.3.1",
+      "isobject@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "has-value@0.3.1": {
+    "dependencies": [
+      "get-value@^2.0.3",
+      "has-values@^0.1.4",
+      "isobject@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "isobject@2.1.0": {
+    "dependencies": [
+      "isarray@1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "has-values@0.1.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "urix@0.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "use@3.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "util@0.12.0": {
+    "dependencies": [
+      "inherits@2.0.3",
+      "is-arguments@^1.0.4",
+      "is-generator-function@^1.0.7",
+      "object.entries@^1.1.0",
+      "safe-buffer@^5.1.2"
+    ],
+    "isDevDependency": true
+  },
+  "inherits@2.0.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "vscode-uri@1.0.6": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "wct-browser-legacy@1.0.2": {
+    "dependencies": [
+      "@polymer/polymer@^3.0.0",
+      "@polymer/sinonjs@^1.14.1",
+      "@polymer/test-fixture@^3.0.0-pre.1",
+      "@webcomponents/webcomponentsjs@^2.0.0",
+      "accessibility-developer-tools@^2.12.0",
+      "async@^1.5.2",
+      "chai@^3.5.0",
+      "lodash@^3.10.1",
+      "mocha@^3.4.2",
+      "sinon@^1.17.1",
+      "sinon-chai@^2.10.0",
+      "stacky@^1.3.1"
+    ],
+    "isDevDependency": true
+  },
+  "@polymer/test-fixture@3.0.0-pre.21": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "webidl-conversions@4.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "webmat@0.2.2": {
+    "dependencies": [
+      "clang-format@^1.2.2",
+      "dom5@^3.0.0",
+      "esprima@^4.0.0",
+      "fast-glob@^2.2.0",
+      "parse5@^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "esprima@4.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "whatwg-url@6.5.0": {
+    "dependencies": [
+      "lodash.sortby@^4.7.0",
+      "tr46@^1.0.1",
+      "webidl-conversions@^4.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "wordwrap@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "wordwrapjs@3.0.0": {
+    "dependencies": [
+      "reduce-flatten@^1.0.1",
+      "typical@^2.6.1"
+    ],
+    "isDevDependency": true
+  },
+  "wrappy@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  }
+}

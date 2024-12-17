@@ -1,0 +1,14 @@
+{
+  "bats@1.2.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "bats-assert@github:bats-core/bats-assert#0a8dd57e2cc6d4cc064b1ed6b4e79b9f7fee096f": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "bats-support@github:bats-core/bats-support#d140a65044b2d6810381935ae7f0c94c7023c8c3": {
+    "dependencies": [],
+    "isDevDependency": true
+  }
+}

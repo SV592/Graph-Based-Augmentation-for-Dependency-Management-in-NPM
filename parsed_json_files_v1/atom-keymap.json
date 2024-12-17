@@ -1,0 +1,4277 @@
+{
+  "@malept/cross-spawn-promise@1.1.1": {
+    "dependencies": [
+      "cross-spawn@^7.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "@sindresorhus/is@4.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@szmarczak/http-timer@4.0.5": {
+    "dependencies": [
+      "defer-to-connect@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "@types/cacheable-request@6.0.2": {
+    "dependencies": [
+      "@types/http-cache-semantics@*",
+      "@types/keyv@*",
+      "@types/node@*",
+      "@types/responselike@*"
+    ],
+    "isDevDependency": true
+  },
+  "@types/http-cache-semantics@4.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/keyv@3.1.1": {
+    "dependencies": [
+      "@types/node@*"
+    ],
+    "isDevDependency": true
+  },
+  "@types/node@10.17.60": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "@types/responselike@1.0.0": {
+    "dependencies": [
+      "@types/node@*"
+    ],
+    "isDevDependency": true
+  },
+  "abbrev@1.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "acorn@5.7.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "acorn-jsx@3.0.1": {
+    "dependencies": [
+      "acorn@^3.0.4"
+    ],
+    "isDevDependency": true
+  },
+  "acorn@3.3.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "acorn-to-esprima@2.0.8": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "ajv@5.5.2": {
+    "dependencies": [
+      "co@^4.6.0",
+      "fast-deep-equal@^1.0.0",
+      "fast-json-stable-stringify@^2.0.0",
+      "json-schema-traverse@^0.3.0"
+    ],
+    "isDevDependency": true
+  },
+  "ajv-keywords@1.5.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "amdefine@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "ansi-escapes@1.4.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "ansi-regex@2.1.1": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "ansi-styles@2.2.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "anymatch@1.3.2": {
+    "dependencies": [
+      "micromatch@^2.1.5",
+      "normalize-path@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "aproba@1.2.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "are-we-there-yet@1.1.5": {
+    "dependencies": [
+      "delegates@^1.0.0",
+      "readable-stream@^2.0.6"
+    ],
+    "isDevDependency": true
+  },
+  "argparse@1.0.10": {
+    "dependencies": [
+      "sprintf-js@~1.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "arr-diff@2.0.0": {
+    "dependencies": [
+      "arr-flatten@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "arr-flatten@1.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "array-find-index@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "array-union@1.0.2": {
+    "dependencies": [
+      "array-uniq@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "array-uniq@1.0.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "array-unique@0.2.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "arrify@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "asn1@0.2.4": {
+    "dependencies": [
+      "safer-buffer@~2.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "assert-plus@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "assertion-error@1.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "async@1.5.2": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "async-each@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "asynckit@0.4.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "at-least-node@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "atomdoc@1.0.6": {
+    "dependencies": [
+      "marked@^0.3.6"
+    ],
+    "isDevDependency": true
+  },
+  "aws-sign2@0.7.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "aws4@1.8.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-cli@6.5.1": {
+    "dependencies": [
+      "babel-core@^6.5.1",
+      "babel-polyfill@^6.3.13",
+      "babel-register@^6.5.1",
+      "babel-runtime@^5.0.0",
+      "bin-version-check@^2.1.0",
+      "chalk@1.1.1",
+      "chokidar@^1.0.0",
+      "commander@^2.8.1",
+      "convert-source-map@^1.1.0",
+      "fs-readdir-recursive@^0.1.0",
+      "glob@^5.0.5",
+      "lodash@^3.2.0",
+      "log-symbols@^1.0.2",
+      "output-file-sync@^1.1.0",
+      "path-exists@^1.0.0",
+      "path-is-absolute@^1.0.0",
+      "request@^2.65.0",
+      "slash@^1.0.0",
+      "source-map@^0.5.0",
+      "v8flags@^2.0.10"
+    ],
+    "isDevDependency": true
+  },
+  "glob@5.0.15": {
+    "dependencies": [
+      "inflight@^1.0.4",
+      "inherits@2",
+      "minimatch@2 || 3",
+      "once@^1.3.0",
+      "path-is-absolute@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-code-frame@6.26.0": {
+    "dependencies": [
+      "chalk@^1.1.3",
+      "esutils@^2.0.2",
+      "js-tokens@^3.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "chalk@1.1.3": {
+    "dependencies": [
+      "ansi-styles@^2.2.1",
+      "escape-string-regexp@^1.0.2",
+      "has-ansi@^2.0.0",
+      "strip-ansi@^3.0.0",
+      "supports-color@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-core@6.26.3": {
+    "dependencies": [
+      "babel-code-frame@^6.26.0",
+      "babel-generator@^6.26.0",
+      "babel-helpers@^6.24.1",
+      "babel-messages@^6.23.0",
+      "babel-register@^6.26.0",
+      "babel-runtime@^6.26.0",
+      "babel-template@^6.26.0",
+      "babel-traverse@^6.26.0",
+      "babel-types@^6.26.0",
+      "babylon@^6.18.0",
+      "convert-source-map@^1.5.1",
+      "debug@^2.6.9",
+      "json5@^0.5.1",
+      "lodash@^4.17.4",
+      "minimatch@^3.0.4",
+      "path-is-absolute@^1.0.1",
+      "private@^0.1.8",
+      "slash@^1.0.0",
+      "source-map@^0.5.7"
+    ],
+    "isDevDependency": true
+  },
+  "babel-register@6.26.0": {
+    "dependencies": [
+      "babel-core@^6.26.0",
+      "babel-runtime@^6.26.0",
+      "core-js@^2.5.0",
+      "home-or-tmp@^2.0.0",
+      "lodash@^4.17.4",
+      "mkdirp@^0.5.1",
+      "source-map-support@^0.4.15"
+    ],
+    "isDevDependency": true
+  },
+  "babel-runtime@6.26.0": {
+    "dependencies": [
+      "core-js@^2.4.0",
+      "regenerator-runtime@^0.11.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash@4.17.10": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-eslint@5.0.0-beta10": {
+    "dependencies": [
+      "acorn-to-esprima@^2.0.4",
+      "babel-traverse@^6.0.20",
+      "babel-types@^6.0.19",
+      "babylon@^6.0.18",
+      "lodash.assign@^3.2.0",
+      "lodash.pick@^3.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-generator@6.26.1": {
+    "dependencies": [
+      "babel-messages@^6.23.0",
+      "babel-runtime@^6.26.0",
+      "babel-types@^6.26.0",
+      "detect-indent@^4.0.0",
+      "jsesc@^1.3.0",
+      "lodash@^4.17.4",
+      "source-map@^0.5.7",
+      "trim-right@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helper-bindify-decorators@6.24.1": {
+    "dependencies": [
+      "babel-runtime@^6.22.0",
+      "babel-traverse@^6.24.1",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helper-builder-binary-assignment-operator-visitor@6.24.1": {
+    "dependencies": [
+      "babel-helper-explode-assignable-expression@^6.24.1",
+      "babel-runtime@^6.22.0",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helper-call-delegate@6.24.1": {
+    "dependencies": [
+      "babel-helper-hoist-variables@^6.24.1",
+      "babel-runtime@^6.22.0",
+      "babel-traverse@^6.24.1",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helper-define-map@6.26.0": {
+    "dependencies": [
+      "babel-helper-function-name@^6.24.1",
+      "babel-runtime@^6.26.0",
+      "babel-types@^6.26.0",
+      "lodash@^4.17.4"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helper-explode-assignable-expression@6.24.1": {
+    "dependencies": [
+      "babel-runtime@^6.22.0",
+      "babel-traverse@^6.24.1",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helper-explode-class@6.24.1": {
+    "dependencies": [
+      "babel-helper-bindify-decorators@^6.24.1",
+      "babel-runtime@^6.22.0",
+      "babel-traverse@^6.24.1",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helper-function-name@6.24.1": {
+    "dependencies": [
+      "babel-helper-get-function-arity@^6.24.1",
+      "babel-runtime@^6.22.0",
+      "babel-template@^6.24.1",
+      "babel-traverse@^6.24.1",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helper-get-function-arity@6.24.1": {
+    "dependencies": [
+      "babel-runtime@^6.22.0",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helper-hoist-variables@6.24.1": {
+    "dependencies": [
+      "babel-runtime@^6.22.0",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helper-optimise-call-expression@6.24.1": {
+    "dependencies": [
+      "babel-runtime@^6.22.0",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helper-regex@6.26.0": {
+    "dependencies": [
+      "babel-runtime@^6.26.0",
+      "babel-types@^6.26.0",
+      "lodash@^4.17.4"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helper-remap-async-to-generator@6.24.1": {
+    "dependencies": [
+      "babel-helper-function-name@^6.24.1",
+      "babel-runtime@^6.22.0",
+      "babel-template@^6.24.1",
+      "babel-traverse@^6.24.1",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helper-replace-supers@6.24.1": {
+    "dependencies": [
+      "babel-helper-optimise-call-expression@^6.24.1",
+      "babel-messages@^6.23.0",
+      "babel-runtime@^6.22.0",
+      "babel-template@^6.24.1",
+      "babel-traverse@^6.24.1",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-helpers@6.24.1": {
+    "dependencies": [
+      "babel-runtime@^6.22.0",
+      "babel-template@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-messages@6.23.0": {
+    "dependencies": [
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-check-es2015-constants@6.22.0": {
+    "dependencies": [
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-syntax-async-functions@6.13.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-plugin-syntax-async-generators@6.13.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-plugin-syntax-class-constructor-call@6.18.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-plugin-syntax-class-properties@6.13.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-plugin-syntax-decorators@6.13.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-plugin-syntax-do-expressions@6.13.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-plugin-syntax-dynamic-import@6.18.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-plugin-syntax-exponentiation-operator@6.13.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-plugin-syntax-export-extensions@6.13.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-plugin-syntax-function-bind@6.13.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-plugin-syntax-object-rest-spread@6.13.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-plugin-syntax-trailing-function-commas@6.22.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-async-generator-functions@6.24.1": {
+    "dependencies": [
+      "babel-helper-remap-async-to-generator@^6.24.1",
+      "babel-plugin-syntax-async-generators@^6.5.0",
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-async-to-generator@6.24.1": {
+    "dependencies": [
+      "babel-helper-remap-async-to-generator@^6.24.1",
+      "babel-plugin-syntax-async-functions@^6.8.0",
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-class-constructor-call@6.24.1": {
+    "dependencies": [
+      "babel-plugin-syntax-class-constructor-call@^6.18.0",
+      "babel-runtime@^6.22.0",
+      "babel-template@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-class-properties@6.24.1": {
+    "dependencies": [
+      "babel-helper-function-name@^6.24.1",
+      "babel-plugin-syntax-class-properties@^6.8.0",
+      "babel-runtime@^6.22.0",
+      "babel-template@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-decorators@6.24.1": {
+    "dependencies": [
+      "babel-helper-explode-class@^6.24.1",
+      "babel-plugin-syntax-decorators@^6.13.0",
+      "babel-runtime@^6.22.0",
+      "babel-template@^6.24.1",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-do-expressions@6.22.0": {
+    "dependencies": [
+      "babel-plugin-syntax-do-expressions@^6.8.0",
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-arrow-functions@6.22.0": {
+    "dependencies": [
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-block-scoped-functions@6.22.0": {
+    "dependencies": [
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-block-scoping@6.26.0": {
+    "dependencies": [
+      "babel-runtime@^6.26.0",
+      "babel-template@^6.26.0",
+      "babel-traverse@^6.26.0",
+      "babel-types@^6.26.0",
+      "lodash@^4.17.4"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-classes@6.24.1": {
+    "dependencies": [
+      "babel-helper-define-map@^6.24.1",
+      "babel-helper-function-name@^6.24.1",
+      "babel-helper-optimise-call-expression@^6.24.1",
+      "babel-helper-replace-supers@^6.24.1",
+      "babel-messages@^6.23.0",
+      "babel-runtime@^6.22.0",
+      "babel-template@^6.24.1",
+      "babel-traverse@^6.24.1",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-computed-properties@6.24.1": {
+    "dependencies": [
+      "babel-runtime@^6.22.0",
+      "babel-template@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-destructuring@6.23.0": {
+    "dependencies": [
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-for-of@6.23.0": {
+    "dependencies": [
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-function-name@6.24.1": {
+    "dependencies": [
+      "babel-helper-function-name@^6.24.1",
+      "babel-runtime@^6.22.0",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-literals@6.22.0": {
+    "dependencies": [
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-modules-commonjs@6.26.2": {
+    "dependencies": [
+      "babel-plugin-transform-strict-mode@^6.24.1",
+      "babel-runtime@^6.26.0",
+      "babel-template@^6.26.0",
+      "babel-types@^6.26.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-object-super@6.24.1": {
+    "dependencies": [
+      "babel-helper-replace-supers@^6.24.1",
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-parameters@6.24.1": {
+    "dependencies": [
+      "babel-helper-call-delegate@^6.24.1",
+      "babel-helper-get-function-arity@^6.24.1",
+      "babel-runtime@^6.22.0",
+      "babel-template@^6.24.1",
+      "babel-traverse@^6.24.1",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-shorthand-properties@6.24.1": {
+    "dependencies": [
+      "babel-runtime@^6.22.0",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-spread@6.22.0": {
+    "dependencies": [
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-sticky-regex@6.24.1": {
+    "dependencies": [
+      "babel-helper-regex@^6.24.1",
+      "babel-runtime@^6.22.0",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-template-literals@6.22.0": {
+    "dependencies": [
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-typeof-symbol@6.23.0": {
+    "dependencies": [
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-es2015-unicode-regex@6.24.1": {
+    "dependencies": [
+      "babel-helper-regex@^6.24.1",
+      "babel-runtime@^6.22.0",
+      "regexpu-core@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-exponentiation-operator@6.24.1": {
+    "dependencies": [
+      "babel-helper-builder-binary-assignment-operator-visitor@^6.24.1",
+      "babel-plugin-syntax-exponentiation-operator@^6.8.0",
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-export-extensions@6.22.0": {
+    "dependencies": [
+      "babel-plugin-syntax-export-extensions@^6.8.0",
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-function-bind@6.22.0": {
+    "dependencies": [
+      "babel-plugin-syntax-function-bind@^6.8.0",
+      "babel-runtime@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-object-rest-spread@6.26.0": {
+    "dependencies": [
+      "babel-plugin-syntax-object-rest-spread@^6.8.0",
+      "babel-runtime@^6.26.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-regenerator@6.26.0": {
+    "dependencies": [
+      "regenerator-transform@^0.10.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-plugin-transform-strict-mode@6.24.1": {
+    "dependencies": [
+      "babel-runtime@^6.22.0",
+      "babel-types@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-polyfill@6.26.0": {
+    "dependencies": [
+      "babel-runtime@^6.26.0",
+      "core-js@^2.5.0",
+      "regenerator-runtime@^0.10.5"
+    ],
+    "isDevDependency": true
+  },
+  "regenerator-runtime@0.11.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "regenerator-runtime@0.10.5": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "babel-preset-es2015@6.5.0": {
+    "dependencies": [
+      "babel-plugin-check-es2015-constants@^6.3.13",
+      "babel-plugin-transform-es2015-arrow-functions@^6.3.13",
+      "babel-plugin-transform-es2015-block-scoped-functions@^6.3.13",
+      "babel-plugin-transform-es2015-block-scoping@^6.3.13",
+      "babel-plugin-transform-es2015-classes@^6.3.13",
+      "babel-plugin-transform-es2015-computed-properties@^6.3.13",
+      "babel-plugin-transform-es2015-destructuring@^6.3.13",
+      "babel-plugin-transform-es2015-for-of@^6.3.13",
+      "babel-plugin-transform-es2015-function-name@^6.3.13",
+      "babel-plugin-transform-es2015-literals@^6.3.13",
+      "babel-plugin-transform-es2015-modules-commonjs@^6.3.13",
+      "babel-plugin-transform-es2015-object-super@^6.3.13",
+      "babel-plugin-transform-es2015-parameters@^6.3.13",
+      "babel-plugin-transform-es2015-shorthand-properties@^6.3.13",
+      "babel-plugin-transform-es2015-spread@^6.3.13",
+      "babel-plugin-transform-es2015-sticky-regex@^6.3.13",
+      "babel-plugin-transform-es2015-template-literals@^6.3.13",
+      "babel-plugin-transform-es2015-typeof-symbol@^6.3.13",
+      "babel-plugin-transform-es2015-unicode-regex@^6.3.13",
+      "babel-plugin-transform-regenerator@^6.3.13"
+    ],
+    "isDevDependency": true
+  },
+  "babel-preset-stage-0@6.5.0": {
+    "dependencies": [
+      "babel-plugin-transform-do-expressions@^6.3.13",
+      "babel-plugin-transform-function-bind@^6.3.13",
+      "babel-preset-stage-1@^6.3.13"
+    ],
+    "isDevDependency": true
+  },
+  "babel-preset-stage-1@6.24.1": {
+    "dependencies": [
+      "babel-plugin-transform-class-constructor-call@^6.24.1",
+      "babel-plugin-transform-export-extensions@^6.22.0",
+      "babel-preset-stage-2@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-preset-stage-2@6.24.1": {
+    "dependencies": [
+      "babel-plugin-syntax-dynamic-import@^6.18.0",
+      "babel-plugin-transform-class-properties@^6.24.1",
+      "babel-plugin-transform-decorators@^6.24.1",
+      "babel-preset-stage-3@^6.24.1"
+    ],
+    "isDevDependency": true
+  },
+  "babel-preset-stage-3@6.24.1": {
+    "dependencies": [
+      "babel-plugin-syntax-trailing-function-commas@^6.22.0",
+      "babel-plugin-transform-async-generator-functions@^6.24.1",
+      "babel-plugin-transform-async-to-generator@^6.24.1",
+      "babel-plugin-transform-exponentiation-operator@^6.24.1",
+      "babel-plugin-transform-object-rest-spread@^6.22.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-register@6.5.2": {
+    "dependencies": [
+      "babel-core@^6.5.2",
+      "babel-runtime@^5.0.0",
+      "core-js@^1.0.0",
+      "home-or-tmp@^1.0.0",
+      "lodash@^3.10.0",
+      "mkdirp@^0.5.1",
+      "path-exists@^1.0.0",
+      "source-map-support@^0.2.10"
+    ],
+    "isDevDependency": true
+  },
+  "core-js@1.2.7": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "home-or-tmp@1.0.0": {
+    "dependencies": [
+      "os-tmpdir@^1.0.1",
+      "user-home@^1.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "source-map@0.1.32": {
+    "dependencies": [
+      "amdefine@>=0.0.4"
+    ],
+    "isDevDependency": true
+  },
+  "source-map-support@0.2.10": {
+    "dependencies": [
+      "source-map@0.1.32"
+    ],
+    "isDevDependency": true
+  },
+  "babel-runtime@5.8.38": {
+    "dependencies": [
+      "core-js@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "babel-template@6.26.0": {
+    "dependencies": [
+      "babel-runtime@^6.26.0",
+      "babel-traverse@^6.26.0",
+      "babel-types@^6.26.0",
+      "babylon@^6.18.0",
+      "lodash@^4.17.4"
+    ],
+    "isDevDependency": true
+  },
+  "babel-traverse@6.26.0": {
+    "dependencies": [
+      "babel-code-frame@^6.26.0",
+      "babel-messages@^6.23.0",
+      "babel-runtime@^6.26.0",
+      "babel-types@^6.26.0",
+      "babylon@^6.18.0",
+      "debug@^2.6.8",
+      "globals@^9.18.0",
+      "invariant@^2.2.2",
+      "lodash@^4.17.4"
+    ],
+    "isDevDependency": true
+  },
+  "babel-types@6.26.0": {
+    "dependencies": [
+      "babel-runtime@^6.26.0",
+      "esutils@^2.0.2",
+      "lodash@^4.17.4",
+      "to-fast-properties@^1.0.3"
+    ],
+    "isDevDependency": true
+  },
+  "babylon@6.18.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "balanced-match@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "base64-js@1.5.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "bcrypt-pbkdf@1.0.2": {
+    "dependencies": [
+      "tweetnacl@^0.14.3"
+    ],
+    "isDevDependency": true
+  },
+  "bin-version@1.0.4": {
+    "dependencies": [
+      "find-versions@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "bin-version-check@2.1.0": {
+    "dependencies": [
+      "bin-version@^1.0.0",
+      "minimist@^1.1.0",
+      "semver@^4.0.3",
+      "semver-truncate@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "minimist@1.2.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "binary-extensions@1.11.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "bindings@1.5.0": {
+    "dependencies": [
+      "file-uri-to-path@1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "bl@4.1.0": {
+    "dependencies": [
+      "buffer@^5.5.0",
+      "inherits@^2.0.4",
+      "readable-stream@^3.4.0"
+    ],
+    "isDevDependency": true
+  },
+  "inherits@2.0.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "readable-stream@3.6.0": {
+    "dependencies": [
+      "inherits@^2.0.3",
+      "string_decoder@^1.1.1",
+      "util-deprecate@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "brace-expansion@1.1.11": {
+    "dependencies": [
+      "balanced-match@^1.0.0",
+      "concat-map@0.0.1"
+    ],
+    "isDevDependency": false
+  },
+  "braces@1.8.5": {
+    "dependencies": [
+      "expand-range@^1.8.1",
+      "preserve@^0.2.0",
+      "repeat-element@^1.1.2"
+    ],
+    "isDevDependency": true
+  },
+  "browser-stdout@1.3.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "buffer@5.7.1": {
+    "dependencies": [
+      "base64-js@^1.3.1",
+      "ieee754@^1.1.13"
+    ],
+    "isDevDependency": true
+  },
+  "buffer-crc32@0.2.13": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "buffer-from@1.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "builtin-modules@1.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "builtins@0.0.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "cacheable-lookup@5.0.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "cacheable-request@7.0.2": {
+    "dependencies": [
+      "clone-response@^1.0.2",
+      "get-stream@^5.1.0",
+      "http-cache-semantics@^4.0.0",
+      "keyv@^4.0.0",
+      "lowercase-keys@^2.0.0",
+      "normalize-url@^6.0.1",
+      "responselike@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "caller-path@0.1.0": {
+    "dependencies": [
+      "callsites@^0.2.0"
+    ],
+    "isDevDependency": true
+  },
+  "callsites@0.2.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "camelcase@2.1.1": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "camelcase-keys@2.1.0": {
+    "dependencies": [
+      "camelcase@^2.0.0",
+      "map-obj@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "caseless@0.12.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "chai@3.5.0": {
+    "dependencies": [
+      "assertion-error@^1.0.1",
+      "deep-eql@^0.1.3",
+      "type-detect@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "chalk@1.1.1": {
+    "dependencies": [
+      "ansi-styles@^2.1.0",
+      "escape-string-regexp@^1.0.2",
+      "has-ansi@^2.0.0",
+      "strip-ansi@^3.0.0",
+      "supports-color@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "chokidar@1.7.0": {
+    "dependencies": [
+      "anymatch@^1.3.0",
+      "async-each@^1.0.0",
+      "fsevents@^1.0.0",
+      "glob-parent@^2.0.0",
+      "inherits@^2.0.1",
+      "is-binary-path@^1.0.0",
+      "is-glob@^2.0.0",
+      "path-is-absolute@^1.0.0",
+      "readdirp@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "chownr@1.1.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "circular-json@0.3.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "clear-cut@2.0.2": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "cli-cursor@1.0.2": {
+    "dependencies": [
+      "restore-cursor@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "cli-spinners@2.6.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "cli-width@2.2.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "cliui@3.2.0": {
+    "dependencies": [
+      "string-width@^1.0.1",
+      "strip-ansi@^3.0.1",
+      "wrap-ansi@^2.0.0"
+    ],
+    "isDevDependency": false
+  },
+  "clone@1.0.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "clone-response@1.0.2": {
+    "dependencies": [
+      "mimic-response@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "co@4.6.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "code-point-at@1.1.0": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "coffee-script@1.7.0": {
+    "dependencies": [
+      "mkdirp@~0.3.5"
+    ],
+    "isDevDependency": true
+  },
+  "mkdirp@0.3.5": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "coffeelint@1.16.0": {
+    "dependencies": [
+      "coffee-script@~1.11.0",
+      "glob@^7.0.6",
+      "ignore@^3.0.9",
+      "optimist@^0.6.1",
+      "resolve@^0.6.3",
+      "strip-json-comments@^1.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "coffee-script@1.11.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "color-convert@2.0.1": {
+    "dependencies": [
+      "color-name@~1.1.4"
+    ],
+    "isDevDependency": true
+  },
+  "color-name@1.1.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "colors@0.6.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "combined-stream@1.0.6": {
+    "dependencies": [
+      "delayed-stream@~1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "commander@2.17.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "concat-map@0.0.1": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "concat-stream@1.6.2": {
+    "dependencies": [
+      "buffer-from@^1.0.0",
+      "inherits@^2.0.3",
+      "readable-stream@^2.2.2",
+      "typedarray@^0.0.6"
+    ],
+    "isDevDependency": true
+  },
+  "console-control-strings@1.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "convert-source-map@1.6.0": {
+    "dependencies": [
+      "safe-buffer@~5.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "core-js@2.5.7": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "core-util-is@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "cross-spawn@7.0.3": {
+    "dependencies": [
+      "path-key@^3.1.0",
+      "shebang-command@^2.0.0",
+      "which@^2.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "which@2.0.2": {
+    "dependencies": [
+      "isexe@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "cson-parser@1.3.5": {
+    "dependencies": [
+      "coffee-script@^1.10.0"
+    ],
+    "isDevDependency": false
+  },
+  "coffee-script@1.12.7": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "currently-unhandled@0.4.1": {
+    "dependencies": [
+      "array-find-index@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "d@0.1.1": {
+    "dependencies": [
+      "es5-ext@~0.10.2"
+    ],
+    "isDevDependency": false
+  },
+  "dashdash@1.14.1": {
+    "dependencies": [
+      "assert-plus@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "date-now@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "dateformat@1.0.2-1.2.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "debounce@1.0.0": {
+    "dependencies": [
+      "date-now@1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "debug@2.6.9": {
+    "dependencies": [
+      "ms@2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "decamelize@1.2.0": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "decompress-response@6.0.0": {
+    "dependencies": [
+      "mimic-response@^3.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "mimic-response@3.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "deep-eql@0.1.3": {
+    "dependencies": [
+      "type-detect@0.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "type-detect@0.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "deep-extend@0.6.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "deep-is@0.1.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "defaults@1.0.3": {
+    "dependencies": [
+      "clone@^1.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "defer-to-connect@2.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "del@2.2.2": {
+    "dependencies": [
+      "globby@^5.0.0",
+      "is-path-cwd@^1.0.0",
+      "is-path-in-cwd@^1.0.0",
+      "object-assign@^4.0.1",
+      "pify@^2.0.0",
+      "pinkie-promise@^2.0.0",
+      "rimraf@^2.2.8"
+    ],
+    "isDevDependency": true
+  },
+  "rimraf@2.6.2": {
+    "dependencies": [
+      "glob@^7.0.5"
+    ],
+    "isDevDependency": false
+  },
+  "delayed-stream@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "delegates@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "detect-indent@4.0.0": {
+    "dependencies": [
+      "repeating@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "detect-libc@1.0.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "diff@3.5.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "doctrine@1.5.0": {
+    "dependencies": [
+      "esutils@^2.0.2",
+      "isarray@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "donna@1.0.16": {
+    "dependencies": [
+      "async@>= 0.1.22",
+      "builtins@0.0.4",
+      "coffee-script@1.10.x",
+      "optimist@~0.6",
+      "source-map@0.1.29",
+      "underscore@>= 0.1.0",
+      "underscore.string@>= 0.1.0",
+      "walkdir@>= 0.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "coffee-script@1.10.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "source-map@0.1.29": {
+    "dependencies": [
+      "amdefine@>=0.0.4"
+    ],
+    "isDevDependency": true
+  },
+  "ecc-jsbn@0.1.2": {
+    "dependencies": [
+      "jsbn@~0.1.0",
+      "safer-buffer@^2.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "electron@4.2.12": {
+    "dependencies": [
+      "@types/node@^10.12.18",
+      "electron-download@^4.1.0",
+      "extract-zip@^1.0.3"
+    ],
+    "isDevDependency": true
+  },
+  "electron-download@4.1.1": {
+    "dependencies": [
+      "debug@^3.0.0",
+      "env-paths@^1.0.0",
+      "fs-extra@^4.0.1",
+      "minimist@^1.2.0",
+      "nugget@^2.0.1",
+      "path-exists@^3.0.0",
+      "rc@^1.2.1",
+      "semver@^5.4.1",
+      "sumchecker@^2.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "debug@3.2.7": {
+    "dependencies": [
+      "ms@^2.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "minimist@1.2.5": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "ms@2.1.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "path-exists@3.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "semver@5.7.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "electron-mocha@6.0.4": {
+    "dependencies": [
+      "commander@^2.15.1",
+      "electron-window@^0.8.0",
+      "fs-extra@^6.0.1",
+      "mocha@^5.2.0",
+      "which@^1.3.1"
+    ],
+    "isDevDependency": true
+  },
+  "fs-extra@6.0.1": {
+    "dependencies": [
+      "graceful-fs@^4.1.2",
+      "jsonfile@^4.0.0",
+      "universalify@^0.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "which@1.3.1": {
+    "dependencies": [
+      "isexe@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "electron-rebuild@2.3.5": {
+    "dependencies": [
+      "@malept/cross-spawn-promise@^1.1.1",
+      "colors@^1.3.3",
+      "debug@^4.1.1",
+      "detect-libc@^1.0.3",
+      "fs-extra@^9.0.1",
+      "got@^11.7.0",
+      "lzma-native@^6.0.1",
+      "node-abi@^2.19.2",
+      "node-gyp@^7.1.0",
+      "ora@^5.1.0",
+      "tar@^6.0.5",
+      "yargs@^16.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "ansi-regex@5.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "ansi-styles@4.3.0": {
+    "dependencies": [
+      "color-convert@^2.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "cliui@7.0.4": {
+    "dependencies": [
+      "string-width@^4.2.0",
+      "strip-ansi@^6.0.0",
+      "wrap-ansi@^7.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "colors@1.4.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "debug@4.3.2": {
+    "dependencies": [
+      "ms@2.1.2"
+    ],
+    "isDevDependency": true
+  },
+  "fs-extra@9.1.0": {
+    "dependencies": [
+      "at-least-node@^1.0.0",
+      "graceful-fs@^4.2.0",
+      "jsonfile@^6.0.1",
+      "universalify@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "graceful-fs@4.2.6": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-fullwidth-code-point@3.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "jsonfile@6.1.0": {
+    "dependencies": [
+      "graceful-fs@^4.1.6",
+      "universalify@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "ms@2.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "string-width@4.2.2": {
+    "dependencies": [
+      "emoji-regex@^8.0.0",
+      "is-fullwidth-code-point@^3.0.0",
+      "strip-ansi@^6.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "strip-ansi@6.0.0": {
+    "dependencies": [
+      "ansi-regex@^5.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "universalify@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "wrap-ansi@7.0.0": {
+    "dependencies": [
+      "ansi-styles@^4.0.0",
+      "string-width@^4.1.0",
+      "strip-ansi@^6.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "y18n@5.0.8": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "yargs@16.2.0": {
+    "dependencies": [
+      "cliui@^7.0.2",
+      "escalade@^3.1.1",
+      "get-caller-file@^2.0.5",
+      "require-directory@^2.1.1",
+      "string-width@^4.2.0",
+      "y18n@^5.0.5",
+      "yargs-parser@^20.2.2"
+    ],
+    "isDevDependency": true
+  },
+  "electron-window@0.8.1": {
+    "dependencies": [
+      "is-electron-renderer@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "emissary@1.3.3": {
+    "dependencies": [
+      "es6-weak-map@^0.1.2",
+      "mixto@1.x",
+      "property-accessors@^1.1",
+      "underscore-plus@1.x"
+    ],
+    "isDevDependency": false
+  },
+  "emoji-regex@8.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "end-of-stream@1.4.4": {
+    "dependencies": [
+      "once@^1.4.0"
+    ],
+    "isDevDependency": true
+  },
+  "env-paths@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "error-ex@1.3.2": {
+    "dependencies": [
+      "is-arrayish@^0.2.1"
+    ],
+    "isDevDependency": true
+  },
+  "es5-ext@0.10.46": {
+    "dependencies": [
+      "es6-iterator@~2.0.3",
+      "es6-symbol@~3.1.1",
+      "next-tick@1"
+    ],
+    "isDevDependency": false
+  },
+  "d@1.0.0": {
+    "dependencies": [
+      "es5-ext@^0.10.9"
+    ],
+    "isDevDependency": true
+  },
+  "es6-iterator@2.0.3": {
+    "dependencies": [
+      "d@1",
+      "es5-ext@^0.10.35",
+      "es6-symbol@^3.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "es6-symbol@3.1.1": {
+    "dependencies": [
+      "d@1",
+      "es5-ext@~0.10.14"
+    ],
+    "isDevDependency": true
+  },
+  "es6-iterator@0.1.3": {
+    "dependencies": [
+      "d@~0.1.1",
+      "es5-ext@~0.10.5",
+      "es6-symbol@~2.0.1"
+    ],
+    "isDevDependency": false
+  },
+  "es6-map@0.1.5": {
+    "dependencies": [
+      "d@1",
+      "es5-ext@~0.10.14",
+      "es6-iterator@~2.0.1",
+      "es6-set@~0.1.5",
+      "es6-symbol@~3.1.1",
+      "event-emitter@~0.3.5"
+    ],
+    "isDevDependency": true
+  },
+  "es6-set@0.1.5": {
+    "dependencies": [
+      "d@1",
+      "es5-ext@~0.10.14",
+      "es6-iterator@~2.0.1",
+      "es6-symbol@3.1.1",
+      "event-emitter@~0.3.5"
+    ],
+    "isDevDependency": true
+  },
+  "es6-symbol@2.0.1": {
+    "dependencies": [
+      "d@~0.1.1",
+      "es5-ext@~0.10.5"
+    ],
+    "isDevDependency": false
+  },
+  "es6-weak-map@0.1.4": {
+    "dependencies": [
+      "d@~0.1.1",
+      "es5-ext@~0.10.6",
+      "es6-iterator@~0.1.3",
+      "es6-symbol@~2.0.1"
+    ],
+    "isDevDependency": false
+  },
+  "escalade@3.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "escape-string-regexp@1.0.5": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "escope@3.6.0": {
+    "dependencies": [
+      "es6-map@^0.1.3",
+      "es6-weak-map@^2.0.1",
+      "esrecurse@^4.1.0",
+      "estraverse@^4.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "es6-weak-map@2.0.2": {
+    "dependencies": [
+      "d@1",
+      "es5-ext@^0.10.14",
+      "es6-iterator@^2.0.1",
+      "es6-symbol@^3.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "eslint@2.2.0": {
+    "dependencies": [
+      "chalk@^1.0.0",
+      "concat-stream@^1.4.6",
+      "debug@^2.1.1",
+      "doctrine@^1.1.0",
+      "es6-map@^0.1.3",
+      "escope@^3.4.0",
+      "espree@^3.0.0",
+      "estraverse@^4.1.1",
+      "estraverse-fb@^1.3.1",
+      "esutils@^2.0.2",
+      "file-entry-cache@^1.1.1",
+      "glob@^6.0.4",
+      "globals@^8.18.0",
+      "ignore@^2.2.19",
+      "inquirer@^0.12.0",
+      "is-my-json-valid@^2.10.0",
+      "is-resolvable@^1.0.0",
+      "js-yaml@^3.5.1",
+      "json-stable-stringify@^1.0.0",
+      "lodash@^4.0.0",
+      "mkdirp@^0.5.0",
+      "optionator@^0.8.1",
+      "path-is-absolute@^1.0.0",
+      "path-is-inside@^1.0.1",
+      "pluralize@^1.2.1",
+      "progress@^1.1.8",
+      "require-uncached@^1.0.2",
+      "resolve@^1.1.6",
+      "shelljs@^0.5.3",
+      "strip-json-comments@~1.0.1",
+      "table@^3.7.8",
+      "text-table@~0.2.0",
+      "user-home@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "glob@6.0.4": {
+    "dependencies": [
+      "inflight@^1.0.4",
+      "inherits@2",
+      "minimatch@2 || 3",
+      "once@^1.3.0",
+      "path-is-absolute@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "globals@8.18.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "ignore@2.2.19": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "resolve@1.8.1": {
+    "dependencies": [
+      "path-parse@^1.0.5"
+    ],
+    "isDevDependency": true
+  },
+  "user-home@2.0.0": {
+    "dependencies": [
+      "os-homedir@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "eslint-config-standard@5.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "eslint-plugin-promise@1.0.8": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "eslint-plugin-standard@1.3.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "espree@3.5.4": {
+    "dependencies": [
+      "acorn@^5.5.0",
+      "acorn-jsx@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "esprima@4.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "esrecurse@4.2.1": {
+    "dependencies": [
+      "estraverse@^4.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "estraverse@4.2.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "estraverse-fb@1.3.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "esutils@2.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "event-emitter@0.3.5": {
+    "dependencies": [
+      "d@1",
+      "es5-ext@~0.10.14"
+    ],
+    "isDevDependency": true
+  },
+  "event-kit@1.5.0": {
+    "dependencies": [
+      "grim@^1.2.1"
+    ],
+    "isDevDependency": false
+  },
+  "eventemitter2@0.4.14": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "exit-hook@1.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "expand-brackets@0.1.5": {
+    "dependencies": [
+      "is-posix-bracket@^0.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "expand-range@1.8.2": {
+    "dependencies": [
+      "fill-range@^2.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "extend@3.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "extglob@0.3.2": {
+    "dependencies": [
+      "is-extglob@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "extract-zip@1.7.0": {
+    "dependencies": [
+      "concat-stream@^1.6.2",
+      "debug@^2.6.9",
+      "mkdirp@^0.5.4",
+      "yauzl@^2.10.0"
+    ],
+    "isDevDependency": true
+  },
+  "mkdirp@0.5.5": {
+    "dependencies": [
+      "minimist@^1.2.5"
+    ],
+    "isDevDependency": true
+  },
+  "extsprintf@1.3.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "fast-deep-equal@1.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "fast-json-stable-stringify@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "fast-levenshtein@2.0.6": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "fd-slicer@1.1.0": {
+    "dependencies": [
+      "pend@~1.2.0"
+    ],
+    "isDevDependency": true
+  },
+  "figures@1.7.0": {
+    "dependencies": [
+      "escape-string-regexp@^1.0.5",
+      "object-assign@^4.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "file-entry-cache@1.3.1": {
+    "dependencies": [
+      "flat-cache@^1.2.1",
+      "object-assign@^4.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "file-uri-to-path@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "filename-regex@2.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "fill-range@2.2.4": {
+    "dependencies": [
+      "is-number@^2.1.0",
+      "isobject@^2.0.0",
+      "randomatic@^3.0.0",
+      "repeat-element@^1.1.2",
+      "repeat-string@^1.5.2"
+    ],
+    "isDevDependency": true
+  },
+  "find-up@1.1.2": {
+    "dependencies": [
+      "path-exists@^2.0.0",
+      "pinkie-promise@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "path-exists@2.1.0": {
+    "dependencies": [
+      "pinkie-promise@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "find-versions@1.2.1": {
+    "dependencies": [
+      "array-uniq@^1.0.0",
+      "get-stdin@^4.0.1",
+      "meow@^3.5.0",
+      "semver-regex@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "findup-sync@0.1.3": {
+    "dependencies": [
+      "glob@~3.2.9",
+      "lodash@~2.4.1"
+    ],
+    "isDevDependency": true
+  },
+  "glob@3.2.11": {
+    "dependencies": [
+      "inherits@2",
+      "minimatch@0.3"
+    ],
+    "isDevDependency": true
+  },
+  "lodash@2.4.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "minimatch@0.3.0": {
+    "dependencies": [
+      "lru-cache@2",
+      "sigmund@~1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "flat-cache@1.3.0": {
+    "dependencies": [
+      "circular-json@^0.3.1",
+      "del@^2.0.2",
+      "graceful-fs@^4.1.2",
+      "write@^0.2.1"
+    ],
+    "isDevDependency": true
+  },
+  "for-in@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "for-own@0.1.5": {
+    "dependencies": [
+      "for-in@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "forever-agent@0.6.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "form-data@2.3.2": {
+    "dependencies": [
+      "asynckit@^0.4.0",
+      "combined-stream@1.0.6",
+      "mime-types@^2.1.12"
+    ],
+    "isDevDependency": true
+  },
+  "formatio@1.1.1": {
+    "dependencies": [
+      "samsam@~1.1"
+    ],
+    "isDevDependency": true
+  },
+  "fs-extra@4.0.3": {
+    "dependencies": [
+      "graceful-fs@^4.1.2",
+      "jsonfile@^4.0.0",
+      "universalify@^0.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "fs-minipass@1.2.7": {
+    "dependencies": [
+      "minipass@^2.6.0"
+    ],
+    "isDevDependency": true
+  },
+  "fs-plus@3.0.2": {
+    "dependencies": [
+      "async@^1.5.2",
+      "mkdirp@^0.5.1",
+      "rimraf@^2.5.2",
+      "underscore-plus@1.x"
+    ],
+    "isDevDependency": false
+  },
+  "fs-readdir-recursive@0.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "fs.realpath@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "fsevents@1.2.13": {
+    "dependencies": [
+      "bindings@^1.5.0",
+      "nan@^2.12.1"
+    ],
+    "isDevDependency": true
+  },
+  "gauge@2.7.4": {
+    "dependencies": [
+      "aproba@^1.0.3",
+      "console-control-strings@^1.0.0",
+      "has-unicode@^2.0.0",
+      "object-assign@^4.1.0",
+      "signal-exit@^3.0.0",
+      "string-width@^1.0.1",
+      "strip-ansi@^3.0.1",
+      "wide-align@^1.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "generate-function@2.3.1": {
+    "dependencies": [
+      "is-property@^1.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "generate-object-property@1.2.0": {
+    "dependencies": [
+      "is-property@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "get-caller-file@2.0.5": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "get-stdin@4.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "get-stream@5.2.0": {
+    "dependencies": [
+      "pump@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "getpass@0.1.7": {
+    "dependencies": [
+      "assert-plus@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "glob@7.1.3": {
+    "dependencies": [
+      "fs.realpath@^1.0.0",
+      "inflight@^1.0.4",
+      "inherits@2",
+      "minimatch@^3.0.4",
+      "once@^1.3.0",
+      "path-is-absolute@^1.0.0"
+    ],
+    "isDevDependency": false
+  },
+  "glob-base@0.3.0": {
+    "dependencies": [
+      "glob-parent@^2.0.0",
+      "is-glob@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "glob-parent@2.0.0": {
+    "dependencies": [
+      "is-glob@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "globals@9.18.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "globby@5.0.0": {
+    "dependencies": [
+      "array-union@^1.0.1",
+      "arrify@^1.0.0",
+      "glob@^7.0.3",
+      "object-assign@^4.0.1",
+      "pify@^2.0.0",
+      "pinkie-promise@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "got@11.8.2": {
+    "dependencies": [
+      "@sindresorhus/is@^4.0.0",
+      "@szmarczak/http-timer@^4.0.5",
+      "@types/cacheable-request@^6.0.1",
+      "@types/responselike@^1.0.0",
+      "cacheable-lookup@^5.0.3",
+      "cacheable-request@^7.0.1",
+      "decompress-response@^6.0.0",
+      "http2-wrapper@^1.0.0-beta.5.2",
+      "lowercase-keys@^2.0.0",
+      "p-cancelable@^2.0.0",
+      "responselike@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "graceful-fs@4.1.11": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "grim@1.5.0": {
+    "dependencies": [
+      "emissary@^1.2.0"
+    ],
+    "isDevDependency": false
+  },
+  "growl@1.10.5": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "grunt@0.4.1": {
+    "dependencies": [
+      "async@~0.1.22",
+      "coffee-script@~1.3.3",
+      "colors@~0.6.0-1",
+      "dateformat@1.0.2-1.2.3",
+      "eventemitter2@~0.4.9",
+      "findup-sync@~0.1.0",
+      "glob@~3.1.21",
+      "hooker@~0.2.3",
+      "iconv-lite@~0.2.5",
+      "js-yaml@~2.0.2",
+      "lodash@~0.9.0",
+      "minimatch@~0.2.6",
+      "nopt@~1.0.10",
+      "rimraf@~2.0.2",
+      "underscore.string@~2.2.0rc",
+      "which@~1.0.5"
+    ],
+    "isDevDependency": true
+  },
+  "argparse@0.1.16": {
+    "dependencies": [
+      "underscore@~1.7.0",
+      "underscore.string@~2.4.0"
+    ],
+    "isDevDependency": true
+  },
+  "underscore.string@2.4.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "async@0.1.22": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "coffee-script@1.3.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "esprima@1.0.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "glob@3.1.21": {
+    "dependencies": [
+      "graceful-fs@~1.2.0",
+      "inherits@1",
+      "minimatch@~0.2.11"
+    ],
+    "isDevDependency": true
+  },
+  "graceful-fs@1.2.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "iconv-lite@0.2.11": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "inherits@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "js-yaml@2.0.5": {
+    "dependencies": [
+      "argparse@~ 0.1.11",
+      "esprima@~ 1.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "lodash@0.9.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "minimatch@0.2.14": {
+    "dependencies": [
+      "lru-cache@2",
+      "sigmund@~1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "rimraf@2.0.3": {
+    "dependencies": [
+      "graceful-fs@~1.1"
+    ],
+    "isDevDependency": true
+  },
+  "graceful-fs@1.1.14": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "underscore@1.7.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "grunt-atomdoc@1.0.0": {
+    "dependencies": [
+      "donna@~1.0",
+      "tello@~1.0"
+    ],
+    "isDevDependency": true
+  },
+  "grunt-cli@0.1.8": {
+    "dependencies": [
+      "findup-sync@~0.1.0",
+      "nopt@~1.0.10",
+      "resolve@~0.3.1"
+    ],
+    "isDevDependency": true
+  },
+  "resolve@0.3.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "grunt-contrib-coffee@0.9.0": {
+    "dependencies": [
+      "chalk@~0.4.0",
+      "coffee-script@~1.7.0",
+      "lodash@~2.4.1"
+    ],
+    "isDevDependency": true
+  },
+  "ansi-styles@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "chalk@0.4.0": {
+    "dependencies": [
+      "ansi-styles@~1.0.0",
+      "has-color@~0.1.0",
+      "strip-ansi@~0.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "strip-ansi@0.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "grunt-shell@0.2.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "har-schema@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "har-validator@5.1.0": {
+    "dependencies": [
+      "ajv@^5.3.0",
+      "har-schema@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "has-ansi@2.0.0": {
+    "dependencies": [
+      "ansi-regex@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "has-color@0.1.7": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "has-flag@3.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "has-unicode@2.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "he@1.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "home-or-tmp@2.0.0": {
+    "dependencies": [
+      "os-homedir@^1.0.0",
+      "os-tmpdir@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "hooker@0.2.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "hosted-git-info@2.7.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "http-cache-semantics@4.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "http-signature@1.2.0": {
+    "dependencies": [
+      "assert-plus@^1.0.0",
+      "jsprim@^1.2.2",
+      "sshpk@^1.7.0"
+    ],
+    "isDevDependency": true
+  },
+  "http2-wrapper@1.0.3": {
+    "dependencies": [
+      "quick-lru@^5.1.1",
+      "resolve-alpn@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "iconv-lite@0.4.24": {
+    "dependencies": [
+      "safer-buffer@>= 2.1.2 < 3"
+    ],
+    "isDevDependency": false
+  },
+  "ieee754@1.2.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "ignore@3.3.10": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "ignore-walk@3.0.4": {
+    "dependencies": [
+      "minimatch@^3.0.4"
+    ],
+    "isDevDependency": true
+  },
+  "indent-string@2.1.0": {
+    "dependencies": [
+      "repeating@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "inflight@1.0.6": {
+    "dependencies": [
+      "once@^1.3.0",
+      "wrappy@1"
+    ],
+    "isDevDependency": false
+  },
+  "inherits@2.0.3": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "ini@1.3.8": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "inquirer@0.12.0": {
+    "dependencies": [
+      "ansi-escapes@^1.1.0",
+      "ansi-regex@^2.0.0",
+      "chalk@^1.0.0",
+      "cli-cursor@^1.0.1",
+      "cli-width@^2.0.0",
+      "figures@^1.3.5",
+      "lodash@^4.3.0",
+      "readline2@^1.0.1",
+      "run-async@^0.1.0",
+      "rx-lite@^3.1.2",
+      "string-width@^1.0.1",
+      "strip-ansi@^3.0.0",
+      "through@^2.3.6"
+    ],
+    "isDevDependency": true
+  },
+  "invariant@2.2.4": {
+    "dependencies": [
+      "loose-envify@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "invert-kv@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "is-arrayish@0.2.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-binary-path@1.0.1": {
+    "dependencies": [
+      "binary-extensions@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "is-buffer@1.1.6": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-builtin-module@1.0.0": {
+    "dependencies": [
+      "builtin-modules@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "is-dotfile@1.0.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-electron-renderer@2.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-equal-shallow@0.1.3": {
+    "dependencies": [
+      "is-primitive@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "is-extendable@0.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-extglob@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-finite@1.0.2": {
+    "dependencies": [
+      "number-is-nan@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "is-fullwidth-code-point@1.0.0": {
+    "dependencies": [
+      "number-is-nan@^1.0.0"
+    ],
+    "isDevDependency": false
+  },
+  "is-glob@2.0.1": {
+    "dependencies": [
+      "is-extglob@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "is-interactive@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-my-ip-valid@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-my-json-valid@2.19.0": {
+    "dependencies": [
+      "generate-function@^2.0.0",
+      "generate-object-property@^1.1.0",
+      "is-my-ip-valid@^1.0.0",
+      "jsonpointer@^4.0.0",
+      "xtend@^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "xtend@4.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-number@2.1.0": {
+    "dependencies": [
+      "kind-of@^3.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "is-path-cwd@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-path-in-cwd@1.0.1": {
+    "dependencies": [
+      "is-path-inside@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "is-path-inside@1.0.1": {
+    "dependencies": [
+      "path-is-inside@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "is-posix-bracket@0.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-primitive@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-property@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-resolvable@1.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-typedarray@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-unicode-supported@0.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-utf8@0.2.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "isarray@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "isexe@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "isobject@2.1.0": {
+    "dependencies": [
+      "isarray@1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "isstream@0.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "js-tokens@3.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "js-yaml@3.12.0": {
+    "dependencies": [
+      "argparse@^1.0.7",
+      "esprima@^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "jsbn@0.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "jsesc@1.3.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "json-buffer@3.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "json-schema@0.2.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "json-schema-traverse@0.3.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "json-stable-stringify@1.0.1": {
+    "dependencies": [
+      "jsonify@~0.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "json-stringify-safe@5.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "json5@0.5.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "jsonfile@4.0.0": {
+    "dependencies": [
+      "graceful-fs@^4.1.6"
+    ],
+    "isDevDependency": true
+  },
+  "jsonify@0.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "jsonpointer@4.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "jsprim@1.4.1": {
+    "dependencies": [
+      "assert-plus@1.0.0",
+      "extsprintf@1.3.0",
+      "json-schema@0.2.3",
+      "verror@1.10.0"
+    ],
+    "isDevDependency": true
+  },
+  "keyboard-layout@2.0.17": {
+    "dependencies": [
+      "event-kit@^2.0.0",
+      "nan@^2.13.2"
+    ],
+    "isDevDependency": false
+  },
+  "event-kit@2.5.3": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "keyv@4.0.3": {
+    "dependencies": [
+      "json-buffer@3.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "kind-of@3.2.2": {
+    "dependencies": [
+      "is-buffer@^1.1.5"
+    ],
+    "isDevDependency": true
+  },
+  "lcid@1.0.0": {
+    "dependencies": [
+      "invert-kv@^1.0.0"
+    ],
+    "isDevDependency": false
+  },
+  "levn@0.3.0": {
+    "dependencies": [
+      "prelude-ls@~1.1.2",
+      "type-check@~0.3.2"
+    ],
+    "isDevDependency": true
+  },
+  "load-json-file@1.1.0": {
+    "dependencies": [
+      "graceful-fs@^4.1.2",
+      "parse-json@^2.2.0",
+      "pify@^2.0.0",
+      "pinkie-promise@^2.0.0",
+      "strip-bom@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash@3.10.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash._baseassign@3.2.0": {
+    "dependencies": [
+      "lodash._basecopy@^3.0.0",
+      "lodash.keys@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash._basecopy@3.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash._baseflatten@3.1.4": {
+    "dependencies": [
+      "lodash.isarguments@^3.0.0",
+      "lodash.isarray@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash._basefor@3.0.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash._bindcallback@3.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash._createassigner@3.1.1": {
+    "dependencies": [
+      "lodash._bindcallback@^3.0.0",
+      "lodash._isiterateecall@^3.0.0",
+      "lodash.restparam@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash._getnative@3.9.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash._isiterateecall@3.0.9": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash._pickbyarray@3.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash._pickbycallback@3.0.0": {
+    "dependencies": [
+      "lodash._basefor@^3.0.0",
+      "lodash.keysin@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash.assign@3.2.0": {
+    "dependencies": [
+      "lodash._baseassign@^3.0.0",
+      "lodash._createassigner@^3.0.0",
+      "lodash.keys@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash.isarguments@3.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash.isarray@3.0.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lodash.keys@3.1.2": {
+    "dependencies": [
+      "lodash._getnative@^3.0.0",
+      "lodash.isarguments@^3.0.0",
+      "lodash.isarray@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash.keysin@3.0.8": {
+    "dependencies": [
+      "lodash.isarguments@^3.0.0",
+      "lodash.isarray@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash.pick@3.1.0": {
+    "dependencies": [
+      "lodash._baseflatten@^3.0.0",
+      "lodash._bindcallback@^3.0.0",
+      "lodash._pickbyarray@^3.0.0",
+      "lodash._pickbycallback@^3.0.0",
+      "lodash.restparam@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lodash.restparam@3.6.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "log-symbols@1.0.2": {
+    "dependencies": [
+      "chalk@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lolex@1.4.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "loose-envify@1.4.0": {
+    "dependencies": [
+      "js-tokens@^3.0.0 || ^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "loud-rejection@1.6.0": {
+    "dependencies": [
+      "currently-unhandled@^0.4.1",
+      "signal-exit@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "lowercase-keys@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lru-cache@2.7.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lzma-native@6.0.1": {
+    "dependencies": [
+      "node-addon-api@^1.6.0",
+      "node-pre-gyp@^0.11.0",
+      "readable-stream@^2.3.5",
+      "rimraf@^2.7.1"
+    ],
+    "isDevDependency": true
+  },
+  "rimraf@2.7.1": {
+    "dependencies": [
+      "glob@^7.1.3"
+    ],
+    "isDevDependency": true
+  },
+  "map-obj@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "marked@0.3.19": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "math-random@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "meow@3.7.0": {
+    "dependencies": [
+      "camelcase-keys@^2.0.0",
+      "decamelize@^1.1.2",
+      "loud-rejection@^1.0.0",
+      "map-obj@^1.0.1",
+      "minimist@^1.1.3",
+      "normalize-package-data@^2.3.4",
+      "object-assign@^4.0.1",
+      "read-pkg-up@^1.0.1",
+      "redent@^1.0.0",
+      "trim-newlines@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "micromatch@2.3.11": {
+    "dependencies": [
+      "arr-diff@^2.0.0",
+      "array-unique@^0.2.1",
+      "braces@^1.8.2",
+      "expand-brackets@^0.1.4",
+      "extglob@^0.3.1",
+      "filename-regex@^2.0.0",
+      "is-extglob@^1.0.0",
+      "is-glob@^2.0.1",
+      "kind-of@^3.0.2",
+      "normalize-path@^2.0.1",
+      "object.omit@^2.0.0",
+      "parse-glob@^3.0.4",
+      "regex-cache@^0.4.2"
+    ],
+    "isDevDependency": true
+  },
+  "mime-db@1.36.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "mime-types@2.1.20": {
+    "dependencies": [
+      "mime-db@~1.36.0"
+    ],
+    "isDevDependency": true
+  },
+  "mimic-fn@2.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "mimic-response@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "minimatch@3.0.4": {
+    "dependencies": [
+      "brace-expansion@^1.1.7"
+    ],
+    "isDevDependency": false
+  },
+  "minimist@0.0.8": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "minipass@2.9.0": {
+    "dependencies": [
+      "safe-buffer@^5.1.2",
+      "yallist@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "minizlib@1.3.3": {
+    "dependencies": [
+      "minipass@^2.9.0"
+    ],
+    "isDevDependency": true
+  },
+  "mixto@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "mkdirp@0.5.1": {
+    "dependencies": [
+      "minimist@0.0.8"
+    ],
+    "isDevDependency": false
+  },
+  "mocha@5.2.0": {
+    "dependencies": [
+      "browser-stdout@1.3.1",
+      "commander@2.15.1",
+      "debug@3.1.0",
+      "diff@3.5.0",
+      "escape-string-regexp@1.0.5",
+      "glob@7.1.2",
+      "growl@1.10.5",
+      "he@1.1.1",
+      "minimatch@3.0.4",
+      "mkdirp@0.5.1",
+      "supports-color@5.4.0"
+    ],
+    "isDevDependency": true
+  },
+  "commander@2.15.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "debug@3.1.0": {
+    "dependencies": [
+      "ms@2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "glob@7.1.2": {
+    "dependencies": [
+      "fs.realpath@^1.0.0",
+      "inflight@^1.0.4",
+      "inherits@2",
+      "minimatch@^3.0.4",
+      "once@^1.3.0",
+      "path-is-absolute@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "supports-color@5.4.0": {
+    "dependencies": [
+      "has-flag@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "ms@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "mute-stream@0.0.5": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "nan@2.14.2": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "needle@2.7.0": {
+    "dependencies": [
+      "debug@^3.2.6",
+      "iconv-lite@^0.4.4",
+      "sax@^1.2.4"
+    ],
+    "isDevDependency": true
+  },
+  "next-tick@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "node-abi@2.30.0": {
+    "dependencies": [
+      "semver@^5.4.1"
+    ],
+    "isDevDependency": true
+  },
+  "node-addon-api@1.7.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "node-gyp@7.1.2": {
+    "dependencies": [
+      "env-paths@^2.2.0",
+      "glob@^7.1.4",
+      "graceful-fs@^4.2.3",
+      "nopt@^5.0.0",
+      "npmlog@^4.1.2",
+      "request@^2.88.2",
+      "rimraf@^3.0.2",
+      "semver@^7.3.2",
+      "tar@^6.0.2",
+      "which@^2.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "ajv@6.12.6": {
+    "dependencies": [
+      "fast-deep-equal@^3.1.1",
+      "fast-json-stable-stringify@^2.0.0",
+      "json-schema-traverse@^0.4.1",
+      "uri-js@^4.2.2"
+    ],
+    "isDevDependency": true
+  },
+  "env-paths@2.2.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "fast-deep-equal@3.1.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "glob@7.1.7": {
+    "dependencies": [
+      "fs.realpath@^1.0.0",
+      "inflight@^1.0.4",
+      "inherits@2",
+      "minimatch@^3.0.4",
+      "once@^1.3.0",
+      "path-is-absolute@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "har-validator@5.1.5": {
+    "dependencies": [
+      "ajv@^6.12.3",
+      "har-schema@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "json-schema-traverse@0.4.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "lru-cache@6.0.0": {
+    "dependencies": [
+      "yallist@^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "nopt@5.0.0": {
+    "dependencies": [
+      "abbrev@1"
+    ],
+    "isDevDependency": true
+  },
+  "punycode@2.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "request@2.88.2": {
+    "dependencies": [
+      "aws-sign2@~0.7.0",
+      "aws4@^1.8.0",
+      "caseless@~0.12.0",
+      "combined-stream@~1.0.6",
+      "extend@~3.0.2",
+      "forever-agent@~0.6.1",
+      "form-data@~2.3.2",
+      "har-validator@~5.1.3",
+      "http-signature@~1.2.0",
+      "is-typedarray@~1.0.0",
+      "isstream@~0.1.2",
+      "json-stringify-safe@~5.0.1",
+      "mime-types@~2.1.19",
+      "oauth-sign@~0.9.0",
+      "performance-now@^2.1.0",
+      "qs@~6.5.2",
+      "safe-buffer@^5.1.2",
+      "tough-cookie@~2.5.0",
+      "tunnel-agent@^0.6.0",
+      "uuid@^3.3.2"
+    ],
+    "isDevDependency": true
+  },
+  "rimraf@3.0.2": {
+    "dependencies": [
+      "glob@^7.1.3"
+    ],
+    "isDevDependency": true
+  },
+  "semver@7.3.5": {
+    "dependencies": [
+      "lru-cache@^6.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "tough-cookie@2.5.0": {
+    "dependencies": [
+      "psl@^1.1.28",
+      "punycode@^2.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "yallist@4.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "node-pre-gyp@0.11.0": {
+    "dependencies": [
+      "detect-libc@^1.0.2",
+      "mkdirp@^0.5.1",
+      "needle@^2.2.1",
+      "nopt@^4.0.1",
+      "npm-packlist@^1.1.6",
+      "npmlog@^4.0.2",
+      "rc@^1.2.7",
+      "rimraf@^2.6.1",
+      "semver@^5.3.0",
+      "tar@^4"
+    ],
+    "isDevDependency": true
+  },
+  "nopt@4.0.3": {
+    "dependencies": [
+      "abbrev@1",
+      "osenv@^0.1.4"
+    ],
+    "isDevDependency": true
+  },
+  "tar@4.4.13": {
+    "dependencies": [
+      "chownr@^1.1.1",
+      "fs-minipass@^1.2.5",
+      "minipass@^2.8.6",
+      "minizlib@^1.2.1",
+      "mkdirp@^0.5.0",
+      "safe-buffer@^5.1.2",
+      "yallist@^3.0.3"
+    ],
+    "isDevDependency": true
+  },
+  "nopt@1.0.10": {
+    "dependencies": [
+      "abbrev@1"
+    ],
+    "isDevDependency": true
+  },
+  "normalize-package-data@2.4.0": {
+    "dependencies": [
+      "hosted-git-info@^2.1.4",
+      "is-builtin-module@^1.0.0",
+      "semver@2 || 3 || 4 || 5",
+      "validate-npm-package-license@^3.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "normalize-path@2.1.1": {
+    "dependencies": [
+      "remove-trailing-separator@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "normalize-url@6.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "npm-bundled@1.1.2": {
+    "dependencies": [
+      "npm-normalize-package-bin@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "npm-normalize-package-bin@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "npm-packlist@1.4.8": {
+    "dependencies": [
+      "ignore-walk@^3.0.1",
+      "npm-bundled@^1.0.1",
+      "npm-normalize-package-bin@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "npmlog@4.1.2": {
+    "dependencies": [
+      "are-we-there-yet@~1.1.2",
+      "console-control-strings@~1.1.0",
+      "gauge@~2.7.3",
+      "set-blocking@~2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "nugget@2.0.1": {
+    "dependencies": [
+      "debug@^2.1.3",
+      "minimist@^1.1.0",
+      "pretty-bytes@^1.0.2",
+      "progress-stream@^1.1.0",
+      "request@^2.45.0",
+      "single-line-log@^1.1.2",
+      "throttleit@0.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "number-is-nan@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "oauth-sign@0.9.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "object-assign@4.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "object-keys@0.4.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "object.omit@2.0.1": {
+    "dependencies": [
+      "for-own@^0.1.4",
+      "is-extendable@^0.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "once@1.4.0": {
+    "dependencies": [
+      "wrappy@1"
+    ],
+    "isDevDependency": false
+  },
+  "onetime@1.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "optimist@0.6.1": {
+    "dependencies": [
+      "minimist@~0.0.1",
+      "wordwrap@~0.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "optionator@0.8.2": {
+    "dependencies": [
+      "deep-is@~0.1.3",
+      "fast-levenshtein@~2.0.4",
+      "levn@~0.3.0",
+      "prelude-ls@~1.1.2",
+      "type-check@~0.3.2",
+      "wordwrap@~1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "wordwrap@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "ora@5.4.1": {
+    "dependencies": [
+      "bl@^4.1.0",
+      "chalk@^4.1.0",
+      "cli-cursor@^3.1.0",
+      "cli-spinners@^2.5.0",
+      "is-interactive@^1.0.0",
+      "is-unicode-supported@^0.1.0",
+      "log-symbols@^4.1.0",
+      "strip-ansi@^6.0.0",
+      "wcwidth@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "chalk@4.1.1": {
+    "dependencies": [
+      "ansi-styles@^4.1.0",
+      "supports-color@^7.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "cli-cursor@3.1.0": {
+    "dependencies": [
+      "restore-cursor@^3.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "has-flag@4.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "log-symbols@4.1.0": {
+    "dependencies": [
+      "chalk@^4.1.0",
+      "is-unicode-supported@^0.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "onetime@5.1.2": {
+    "dependencies": [
+      "mimic-fn@^2.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "restore-cursor@3.1.0": {
+    "dependencies": [
+      "onetime@^5.1.0",
+      "signal-exit@^3.0.2"
+    ],
+    "isDevDependency": true
+  },
+  "supports-color@7.2.0": {
+    "dependencies": [
+      "has-flag@^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "os-homedir@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "os-locale@1.4.0": {
+    "dependencies": [
+      "lcid@^1.0.0"
+    ],
+    "isDevDependency": false
+  },
+  "os-tmpdir@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "osenv@0.1.5": {
+    "dependencies": [
+      "os-homedir@^1.0.0",
+      "os-tmpdir@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "output-file-sync@1.1.2": {
+    "dependencies": [
+      "graceful-fs@^4.1.4",
+      "mkdirp@^0.5.1",
+      "object-assign@^4.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "p-cancelable@2.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "parse-glob@3.0.4": {
+    "dependencies": [
+      "glob-base@^0.3.0",
+      "is-dotfile@^1.0.0",
+      "is-extglob@^1.0.0",
+      "is-glob@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "parse-json@2.2.0": {
+    "dependencies": [
+      "error-ex@^1.2.0"
+    ],
+    "isDevDependency": true
+  },
+  "path-exists@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "path-is-absolute@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "path-is-inside@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "path-key@3.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "path-parse@1.0.7": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "path-type@1.1.0": {
+    "dependencies": [
+      "graceful-fs@^4.1.2",
+      "pify@^2.0.0",
+      "pinkie-promise@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "pathwatcher@8.1.2": {
+    "dependencies": [
+      "async@~0.2.10",
+      "emissary@^1.3.2",
+      "event-kit@^2.1.0",
+      "fs-plus@^3.0.0",
+      "grim@^2.0.1",
+      "iconv-lite@~0.4.4",
+      "nan@^2.10.0",
+      "underscore-plus@~1.x"
+    ],
+    "isDevDependency": false
+  },
+  "async@0.2.10": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "grim@2.0.3": {
+    "dependencies": [
+      "event-kit@^2.0.0"
+    ],
+    "isDevDependency": false
+  },
+  "pend@1.2.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "performance-now@2.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "pify@2.3.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "pinkie@2.0.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "pinkie-promise@2.0.1": {
+    "dependencies": [
+      "pinkie@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "pluralize@1.2.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "prelude-ls@1.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "preserve@0.2.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "pretty-bytes@1.0.4": {
+    "dependencies": [
+      "get-stdin@^4.0.1",
+      "meow@^3.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "private@0.1.8": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "process-nextick-args@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "progress@1.1.8": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "progress-stream@1.2.0": {
+    "dependencies": [
+      "speedometer@~0.1.2",
+      "through2@~0.2.3"
+    ],
+    "isDevDependency": true
+  },
+  "property-accessors@1.1.3": {
+    "dependencies": [
+      "es6-weak-map@^0.1.2",
+      "mixto@1.x"
+    ],
+    "isDevDependency": false
+  },
+  "psl@1.1.29": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "pump@3.0.0": {
+    "dependencies": [
+      "end-of-stream@^1.1.0",
+      "once@^1.3.1"
+    ],
+    "isDevDependency": true
+  },
+  "punycode@1.4.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "qs@6.5.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "quick-lru@5.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "randomatic@3.1.0": {
+    "dependencies": [
+      "is-number@^4.0.0",
+      "kind-of@^6.0.0",
+      "math-random@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "is-number@4.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "kind-of@6.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "rc@1.2.8": {
+    "dependencies": [
+      "deep-extend@^0.6.0",
+      "ini@~1.3.0",
+      "minimist@^1.2.0",
+      "strip-json-comments@~2.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "strip-json-comments@2.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "read-pkg@1.1.0": {
+    "dependencies": [
+      "load-json-file@^1.0.0",
+      "normalize-package-data@^2.3.2",
+      "path-type@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "read-pkg-up@1.0.1": {
+    "dependencies": [
+      "find-up@^1.0.0",
+      "read-pkg@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "readable-stream@2.3.6": {
+    "dependencies": [
+      "core-util-is@~1.0.0",
+      "inherits@~2.0.3",
+      "isarray@~1.0.0",
+      "process-nextick-args@~2.0.0",
+      "safe-buffer@~5.1.1",
+      "string_decoder@~1.1.1",
+      "util-deprecate@~1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "readdirp@2.1.0": {
+    "dependencies": [
+      "graceful-fs@^4.1.2",
+      "minimatch@^3.0.2",
+      "readable-stream@^2.0.2",
+      "set-immediate-shim@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "readline2@1.0.1": {
+    "dependencies": [
+      "code-point-at@^1.0.0",
+      "is-fullwidth-code-point@^1.0.0",
+      "mute-stream@0.0.5"
+    ],
+    "isDevDependency": true
+  },
+  "redent@1.0.0": {
+    "dependencies": [
+      "indent-string@^2.1.0",
+      "strip-indent@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "regenerate@1.4.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "regenerator-transform@0.10.1": {
+    "dependencies": [
+      "babel-runtime@^6.18.0",
+      "babel-types@^6.19.0",
+      "private@^0.1.6"
+    ],
+    "isDevDependency": true
+  },
+  "regex-cache@0.4.4": {
+    "dependencies": [
+      "is-equal-shallow@^0.1.3"
+    ],
+    "isDevDependency": true
+  },
+  "regexpu-core@2.0.0": {
+    "dependencies": [
+      "regenerate@^1.2.1",
+      "regjsgen@^0.2.0",
+      "regjsparser@^0.1.4"
+    ],
+    "isDevDependency": true
+  },
+  "regjsgen@0.2.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "regjsparser@0.1.5": {
+    "dependencies": [
+      "jsesc@~0.5.0"
+    ],
+    "isDevDependency": true
+  },
+  "jsesc@0.5.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "remove-trailing-separator@1.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "repeat-element@1.1.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "repeat-string@1.6.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "repeating@2.0.1": {
+    "dependencies": [
+      "is-finite@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "request@2.88.0": {
+    "dependencies": [
+      "aws-sign2@~0.7.0",
+      "aws4@^1.8.0",
+      "caseless@~0.12.0",
+      "combined-stream@~1.0.6",
+      "extend@~3.0.2",
+      "forever-agent@~0.6.1",
+      "form-data@~2.3.2",
+      "har-validator@~5.1.0",
+      "http-signature@~1.2.0",
+      "is-typedarray@~1.0.0",
+      "isstream@~0.1.2",
+      "json-stringify-safe@~5.0.1",
+      "mime-types@~2.1.19",
+      "oauth-sign@~0.9.0",
+      "performance-now@^2.1.0",
+      "qs@~6.5.2",
+      "safe-buffer@^5.1.2",
+      "tough-cookie@~2.4.3",
+      "tunnel-agent@^0.6.0",
+      "uuid@^3.3.2"
+    ],
+    "isDevDependency": true
+  },
+  "require-directory@2.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "require-uncached@1.0.3": {
+    "dependencies": [
+      "caller-path@^0.1.0",
+      "resolve-from@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "resolve@0.6.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "resolve-alpn@1.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "resolve-from@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "responselike@2.0.0": {
+    "dependencies": [
+      "lowercase-keys@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "restore-cursor@1.0.1": {
+    "dependencies": [
+      "exit-hook@^1.0.0",
+      "onetime@^1.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "rimraf@2.2.2": {
+    "dependencies": [
+      "graceful-fs@~2"
+    ],
+    "isDevDependency": true
+  },
+  "graceful-fs@2.0.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "run-async@0.1.0": {
+    "dependencies": [
+      "once@^1.3.0"
+    ],
+    "isDevDependency": true
+  },
+  "rx-lite@3.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "safe-buffer@5.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "safer-buffer@2.1.2": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "samsam@1.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "sax@1.2.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "season@6.0.2": {
+    "dependencies": [
+      "cson-parser@^1.3.0",
+      "fs-plus@^3.0.0",
+      "yargs@^3.23.0"
+    ],
+    "isDevDependency": false
+  },
+  "semver@4.3.6": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "semver-regex@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "semver-truncate@1.1.2": {
+    "dependencies": [
+      "semver@^5.3.0"
+    ],
+    "isDevDependency": true
+  },
+  "semver@5.5.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "set-blocking@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "set-immediate-shim@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "shebang-command@2.0.0": {
+    "dependencies": [
+      "shebang-regex@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "shebang-regex@3.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "shelljs@0.5.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "sigmund@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "signal-exit@3.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "single-line-log@1.1.2": {
+    "dependencies": [
+      "string-width@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "sinon@1.17.3": {
+    "dependencies": [
+      "formatio@1.1.1",
+      "lolex@1.3.2",
+      "samsam@1.1.2",
+      "util@>=0.10.3 <1"
+    ],
+    "isDevDependency": true
+  },
+  "lolex@1.3.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "slash@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "slice-ansi@0.0.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "source-map@0.5.7": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "source-map-support@0.4.18": {
+    "dependencies": [
+      "source-map@^0.5.6"
+    ],
+    "isDevDependency": true
+  },
+  "space-pencil@0.3.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "spdx-correct@3.0.0": {
+    "dependencies": [
+      "spdx-expression-parse@^3.0.0",
+      "spdx-license-ids@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "spdx-exceptions@2.1.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "spdx-expression-parse@3.0.0": {
+    "dependencies": [
+      "spdx-exceptions@^2.1.0",
+      "spdx-license-ids@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "spdx-license-ids@3.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "speedometer@0.1.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "sprintf-js@1.0.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "sshpk@1.14.2": {
+    "dependencies": [
+      "asn1@~0.2.3",
+      "assert-plus@^1.0.0",
+      "bcrypt-pbkdf@^1.0.0",
+      "dashdash@^1.12.0",
+      "ecc-jsbn@~0.1.1",
+      "getpass@^0.1.1",
+      "jsbn@~0.1.0",
+      "safer-buffer@^2.0.2",
+      "tweetnacl@~0.14.0"
+    ],
+    "isDevDependency": true
+  },
+  "string-width@1.0.2": {
+    "dependencies": [
+      "code-point-at@^1.0.0",
+      "is-fullwidth-code-point@^1.0.0",
+      "strip-ansi@^3.0.0"
+    ],
+    "isDevDependency": false
+  },
+  "string_decoder@1.1.1": {
+    "dependencies": [
+      "safe-buffer@~5.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "strip-ansi@3.0.1": {
+    "dependencies": [
+      "ansi-regex@^2.0.0"
+    ],
+    "isDevDependency": false
+  },
+  "strip-bom@2.0.0": {
+    "dependencies": [
+      "is-utf8@^0.2.0"
+    ],
+    "isDevDependency": true
+  },
+  "strip-indent@1.0.1": {
+    "dependencies": [
+      "get-stdin@^4.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "strip-json-comments@1.0.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "sumchecker@2.0.2": {
+    "dependencies": [
+      "debug@^2.2.0"
+    ],
+    "isDevDependency": true
+  },
+  "supports-color@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "table@3.8.3": {
+    "dependencies": [
+      "ajv@^4.7.0",
+      "ajv-keywords@^1.0.0",
+      "chalk@^1.1.1",
+      "lodash@^4.0.0",
+      "slice-ansi@0.0.4",
+      "string-width@^2.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "ajv@4.11.8": {
+    "dependencies": [
+      "co@^4.6.0",
+      "json-stable-stringify@^1.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "ansi-regex@3.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "is-fullwidth-code-point@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "string-width@2.1.1": {
+    "dependencies": [
+      "is-fullwidth-code-point@^2.0.0",
+      "strip-ansi@^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "strip-ansi@4.0.0": {
+    "dependencies": [
+      "ansi-regex@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "tar@6.1.0": {
+    "dependencies": [
+      "chownr@^2.0.0",
+      "fs-minipass@^2.0.0",
+      "minipass@^3.0.0",
+      "minizlib@^2.1.1",
+      "mkdirp@^1.0.3",
+      "yallist@^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "chownr@2.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "fs-minipass@2.1.0": {
+    "dependencies": [
+      "minipass@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "minipass@3.1.3": {
+    "dependencies": [
+      "yallist@^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "minizlib@2.1.2": {
+    "dependencies": [
+      "minipass@^3.0.0",
+      "yallist@^4.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "mkdirp@1.0.4": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "tello@1.0.7": {
+    "dependencies": [
+      "atomdoc@1.0.6",
+      "optimist@~0.6",
+      "underscore@~1.6"
+    ],
+    "isDevDependency": true
+  },
+  "underscore@1.6.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "temp@0.8.3": {
+    "dependencies": [
+      "os-tmpdir@^1.0.0",
+      "rimraf@~2.2.6"
+    ],
+    "isDevDependency": true
+  },
+  "rimraf@2.2.8": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "text-table@0.2.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "throttleit@0.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "through@2.3.8": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "through2@0.2.3": {
+    "dependencies": [
+      "readable-stream@~1.1.9",
+      "xtend@~2.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "isarray@0.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "readable-stream@1.1.14": {
+    "dependencies": [
+      "core-util-is@~1.0.0",
+      "inherits@~2.0.1",
+      "isarray@0.0.1",
+      "string_decoder@~0.10.x"
+    ],
+    "isDevDependency": true
+  },
+  "string_decoder@0.10.31": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "to-fast-properties@1.0.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "tough-cookie@2.4.3": {
+    "dependencies": [
+      "psl@^1.1.24",
+      "punycode@^1.4.1"
+    ],
+    "isDevDependency": true
+  },
+  "trim-newlines@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "trim-right@1.0.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "tunnel-agent@0.6.0": {
+    "dependencies": [
+      "safe-buffer@^5.0.1"
+    ],
+    "isDevDependency": true
+  },
+  "tweetnacl@0.14.5": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "type-check@0.3.2": {
+    "dependencies": [
+      "prelude-ls@~1.1.2"
+    ],
+    "isDevDependency": true
+  },
+  "type-detect@1.0.0": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "typedarray@0.0.6": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "underscore@1.8.3": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "underscore-plus@1.6.8": {
+    "dependencies": [
+      "underscore@~1.8.3"
+    ],
+    "isDevDependency": false
+  },
+  "underscore.string@2.2.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "universalify@0.1.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "uri-js@4.4.1": {
+    "dependencies": [
+      "punycode@^2.1.0"
+    ],
+    "isDevDependency": true
+  },
+  "user-home@1.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "util@0.11.0": {
+    "dependencies": [
+      "inherits@2.0.3"
+    ],
+    "isDevDependency": true
+  },
+  "util-deprecate@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "uuid@3.3.2": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "v8flags@2.1.1": {
+    "dependencies": [
+      "user-home@^1.1.1"
+    ],
+    "isDevDependency": true
+  },
+  "validate-npm-package-license@3.0.4": {
+    "dependencies": [
+      "spdx-correct@^3.0.0",
+      "spdx-expression-parse@^3.0.0"
+    ],
+    "isDevDependency": true
+  },
+  "verror@1.10.0": {
+    "dependencies": [
+      "assert-plus@^1.0.0",
+      "core-util-is@1.0.2",
+      "extsprintf@^1.2.0"
+    ],
+    "isDevDependency": true
+  },
+  "walkdir@0.0.12": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "wcwidth@1.0.1": {
+    "dependencies": [
+      "defaults@^1.0.3"
+    ],
+    "isDevDependency": true
+  },
+  "which@1.0.9": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "wide-align@1.1.3": {
+    "dependencies": [
+      "string-width@^1.0.2 || 2"
+    ],
+    "isDevDependency": true
+  },
+  "window-size@0.1.4": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "wordwrap@0.0.3": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "wrap-ansi@2.1.0": {
+    "dependencies": [
+      "string-width@^1.0.1",
+      "strip-ansi@^3.0.1"
+    ],
+    "isDevDependency": false
+  },
+  "wrappy@1.0.2": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "write@0.2.1": {
+    "dependencies": [
+      "mkdirp@^0.5.1"
+    ],
+    "isDevDependency": true
+  },
+  "xtend@2.1.2": {
+    "dependencies": [
+      "object-keys@~0.4.0"
+    ],
+    "isDevDependency": true
+  },
+  "y18n@3.2.1": {
+    "dependencies": [],
+    "isDevDependency": false
+  },
+  "yallist@3.1.1": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "yargs@3.32.0": {
+    "dependencies": [
+      "camelcase@^2.0.1",
+      "cliui@^3.0.3",
+      "decamelize@^1.1.1",
+      "os-locale@^1.4.0",
+      "string-width@^1.0.1",
+      "window-size@^0.1.4",
+      "y18n@^3.2.0"
+    ],
+    "isDevDependency": false
+  },
+  "yargs-parser@20.2.9": {
+    "dependencies": [],
+    "isDevDependency": true
+  },
+  "yauzl@2.10.0": {
+    "dependencies": [
+      "buffer-crc32@~0.2.3",
+      "fd-slicer@~1.1.0"
+    ],
+    "isDevDependency": true
+  }
+}
